@@ -13,11 +13,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <style>
+        /* Basic Body */
         body {
             background: #EBE3FF;
             margin: 0px;
         }
 
+        /* Logo Image */
         .logo {
             width: 14%;
             margin-left: 43%;
@@ -25,6 +27,7 @@
             margin-bottom: 2%;
         }
 
+        /* Navbar  */
         .nav {
             text-align: center;
             font-size: 26px;
@@ -36,46 +39,84 @@
             margin-left: 3%;
         }
 
-        .dog {
-            width: 84%;
-            margin-right: 8%;
-            margin-left: 8%;
+        /* First slide */
+        .landing {
+            width: 168vh;
+            margin-right: 11vh;
+            margin-left: 21vh;
             margin-top: -1%;
         }
 
-        .collage {
-            margin-left: 11%;
-            margin-top: 25%;
-            width: 80vh;
-        }
-
-        .dog-text {
+        .landing-text {
             color: white;
             font-family: 'Poppins', sans-serif;
             font-weight: 900;
-            font-size: 68px;
+            font-size: 10vh;
             width: 35%;
-            margin-top: -27%;
+            margin-top: -28%;
             margin-left: 15%;
+        }
+
+        .btn {
+            background: white;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            font-size: 25px;
+            border: none;
+            border-radius: 25px;
+            height: 30%;
+            vertical-align: middle;
+            height: 7vh;
+        }
+
+        .btn:hover {
+            background: cornsilk;
+        }
+
+        /* Second Slide */
+        .collage {
+            margin-left: 11%;
+            margin-top: 15%;
+            width: 80vh;
+            margin-bottom: 10%;
+        }
+
+        .about-us-heading {
+            font-family: 'Lato', sans-serif;
+            font-weight: bolder;
+            margin-top: -45%;
+            font-size: 35px;
+            margin-left: 53%;
+            text-decoration: underline #6C71E0;
         }
     </style>
 </head>
-<img src="./src/logo.svg" class="logo">
-<nav class="nav">
-    <span class="nav-content"><b>Home</b></span>
-    <span class="nav-content">About</span>
-    <span class="nav-content">Pets in UAE</span>
-    <span class="nav-content">Others</span>
-</nav>
-<img src="./src/dog.svg" class="dog">
-<div class="dog-text">Find the Right Pet for you</div>
-
-
-<img src="./src/pet-example.png" class="collage">
-
 
 <body>
 
+    <!-- logo -->
+    <img src="./src/logo.svg" class="logo">
+
+    <!-- navbar -->
+    <nav class="nav">
+        <span class="nav-content"><b>Home</b></span>
+        <span class="nav-content">About</span>
+        <span class="nav-content">Pets in UAE</span>
+        <span class="nav-content">Others</span>
+    </nav>
+
+    <!-- blue rectangle -->
+    <img src="./src/dog.svg" class="landing">
+    <div class="landing-text">
+        Find the Right <br> Pet for you <br>
+        <button href="#" class="btn">
+            &nbsp; &nbsp; Find a Pet &nbsp; &nbsp;
+        </button>
+    </div>
+
+    <!-- second slide -->
+    <img src="./src/pet-example.png" class="collage">
+    <div class="about-us-heading"> About Us</div>
 </body>
 
 </html>
