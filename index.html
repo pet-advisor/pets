@@ -24,7 +24,7 @@
             width: 14%;
             margin-left: 43%;
             margin-right: 43%;
-            margin-bottom: 2%;
+            margin-bottom: 3%;
         }
 
         /* Navbar  */
@@ -37,6 +37,35 @@
             font-family: 'Lato', sans-serif;
             margin-right: 3%;
             margin-left: 3%;
+            width: 100px;
+            font-size: larger;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .nav-content:hover {
+            background-color: #dbceff;
+            border-radius: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .nav-content-active {
+            font-size: larger;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            margin-right: 3%;
+            margin-left: 3%;
+            background-color: #d0bfff;
+            border-radius: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 20px;
+            padding-left: 20px;
         }
 
         /* First slide */
@@ -44,7 +73,7 @@
             width: 168vh;
             margin-right: 11vh;
             margin-left: 21vh;
-            margin-top: -1%;
+            margin-top: 0%;
         }
 
         .landing-text {
@@ -202,11 +231,23 @@
             margin-left: 15%;
             margin-top: 2%;
             width: 150vh;
+            margin-bottom: 10%;
         }
 
         a {
             text-decoration: none;
             color: black;
+        }
+
+        /* footer */
+        .footer {
+            background-color: #6C71E0;
+            color: white;
+            height: 200px;
+            padding-top: 5%;
+            padding-left: 5%;
+            font-size: 20px;
+            line-height: 40px;
         }
     </style>
 </head>
@@ -218,7 +259,7 @@
 
     <!-- navbar -->
     <nav class="nav">
-        <span class="nav-content"><b><a href="index.html">Home</a></b></span>
+        <span class="nav-content-active"> <a href="index.html">Home</a></span>
         <span class="nav-content"><a href="about us.html">About</a></span>
         <span class="nav-content">Pets in UAE</span>
         <span class="nav-content">Others</span>
@@ -254,12 +295,19 @@
     <button href="#" class="btn-find-companions">
         &nbsp; &nbsp; View breed across the UAE &nbsp; &nbsp;
     </button>
-    <img src="./src/images of animals.png" class="collage-circles" alt="">
+    <img src="./src/images of animals.png" class="collage-circles">
 
     <!-- fourth slide -->
     <div class="problems-heading">Having Problems</div>
     <div class="problems-text">Find your solutions here</div>
-    <img src="./src/problems.svg" class="problems" alt="">
+    <img src="./src/problems.svg" class="problems">
+    <div class="footer">
+        <a href="index.html">Home</a><br>
+        <a href="about us.html">About Us</a><br>
+        <a href="#">Vaccine Diary</a><br>
+        <a href="#">Pet Library</a><br>
+    </div>
+
 </body>
 
 </html>
