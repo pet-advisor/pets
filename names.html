@@ -5,11 +5,187 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Names</title>
+    <title>Picking A Name</title>
+    <style>
+        body {
+            background: #EBE3FF;
+            margin: 0px;
+        }
+
+        /* Find Names button */
+        .btn {
+            background: #8472e1;
+            color: white;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            font-size: 1em;
+            border: none;
+            border-radius: 25px;
+            height: 30%;
+            width: 20vh;
+            vertical-align: middle;
+            height: 7vh;
+            margin-left: 5%;
+        }
+
+        /* Logo Image */
+        .logo {
+            width: 14%;
+            margin-left: 43%;
+            margin-right: 43%;
+            margin-bottom: 2%;
+        }
+
+        /* Navbar  */
+        .nav {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .nav-content {
+            font-family: 'Lato', sans-serif;
+            margin-right: 3%;
+            margin-left: 3%;
+            width: 100px;
+            font-size: larger;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .nav-content:hover {
+            background-color: #dbceff;
+            border-radius: 10px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .nav-content-active {
+            font-size: larger;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            margin-right: 3%;
+            margin-left: 3%;
+            background-color: #d0bfff;
+            border-radius: 10px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        /* Headings Level 1*/
+        .headings-1 {
+            margin-left: 5%;
+            font-family: 'Lato', sans-serif;
+            font-weight: bolder;
+            font-size: 45px;
+            text-decoration: underline #6C71E0;
+        }
+
+        /* Headings Level 2 */
+        .headings-2 {
+            margin-left: 5%;
+            font-family: 'Lato', sans-serif;
+            font-weight: bolder;
+            font-size: 40px;
+            text-decoration: underline #6C71E0;
+        }
+
+        /* The pic on the side */
+        .sidepic {
+            width: 55vh;
+            margin-left: 70%;
+        }
+
+        /* The main text of the page */
+        .maintext {
+            width: 850px;
+            font-family: Lato, sans-serif;
+            font-size: 20px;
+            margin-left: 5%;
+            margin-top: -24%;
+        }
+
+        /* The second main text of the page */
+        .maintext-2 {
+            width: 850px;
+            font-family: Lato, sans-serif;
+            font-size: 20px;
+            margin-left: 5%;
+            margin-top: 3%;
+        }
+
+        select {
+            background: #D8D0FF;
+            border: none;
+            border-radius: 4px;
+            width: 14em;
+            height: 2.5em;
+            font-size: 15px;
+            margin-left: 5%;
+        }
+
+        option {
+            background: #D8D0FF;
+            padding-top: 12px;
+            height: 1.5em;
+            border-radius: 4px;
+        }
+
+        .names {
+            margin-left: 5%;
+            font-family: Lato, sans-serif;
+            margin-top: 1%;
+        }
+
+        .a1 {
+            text-decoration: none;
+            font-family: Lato, sans-serif;
+            color: black;
+        }
+
+        a:visited {
+            text-decoration: none;
+            font-family: Lato, sans-serif;
+        }
+    </style>
 </head>
 <script src="./js/name.js"></script>
 
 <body>
+    <!-- logo -->
+    <img src="./src/logo.svg" class="logo">
+
+    <!-- navbar -->
+    <nav class="nav">
+        <span class="nav-content"> <a href="index.html" class="a1">Home</a></span>
+        <span class="nav-content"><a href="about us.html" class="a1">About</a></span>
+        <span class="nav-content">Pets in UAE</span>
+        <span class="nav-content-active">Others</span>
+    </nav><br><br><br><br>
+
+    <div class="headings-1">Naming your Pets</div>
+    <img src="src/hamster.svg" class="sidepic""></img>
+
+    <div class=" maintext">
+    Having trouble naming your pet? No worries, Pet Adviser is here.
+    <br><br>
+    Using the naming tool on our website, you can get random names for your pets which you can actually use or take
+    inspiration from and create a unique name for your unique pet.
+    </div>
+    <br><br>
+    <div class="headings-2">How it Works</div>
+    <div class=" maintext-2">
+        Click on the dropdown list and choose your pet and the gender of your pet.
+        <br><br>
+        After doing so, click on the “Find Names” button underneath the dropdown lists.
+    </div><br><br>
+    <div class="headings-2">The Thing.</div>
+    <br><br>
     <select name="Pet" id="dpdn">
         <option value="0">Dog</option>
         <option value="1">Cat</option>
@@ -18,11 +194,13 @@
         <option value="4">Hamster</option>
     </select>
     <select name="Gender" id="gender">
-        <option value="male">male</option>
-        <option>female</option>
+        <option value="male">Male</option>
+        <option value="a">Female</option>
     </select>
-    <button onclick="submit()">submit</button>
-    <div id="display"></div>
+    <br><br>
+    <button class="btn" onclick="submit()">Find Names</button>
+    <div class="names" id="display"></div>
+    <br>
 </body>
 
 </html>

@@ -17,7 +17,7 @@
             width: 14%;
             margin-left: 43%;
             margin-right: 43%;
-            margin-bottom: 2%;
+            margin-bottom: 3%;
         }
 
         /* Navbar  */
@@ -30,25 +30,62 @@
             font-family: 'Lato', sans-serif;
             margin-right: 3%;
             margin-left: 3%;
+            width: 100px;
+            font-size: larger;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .nav-content:hover {
+            background-color: #dbceff;
+            border-radius: 10px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .nav-content-active {
+            font-size: larger;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            margin-right: 3%;
+            margin-left: 3%;
+            background-color: #d0bfff;
+            border-radius: 10px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-right: 20px;
+            padding-left: 20px;
         }
 
         .sidepic {
-
+            margin-top: 10vh;
             width: 55vh;
-            margin-left: 70%;
+            margin-left: 130vh;
         }
 
 
         .maintext {
-            width: 850px;
+            width: 100vh;
             font-family: Lato, sans-serif;
             font-size: 20px;
-            margin-left: 5%;
-            margin-top: -24%;
+            margin-left: 25vh;
+            margin-top: -55vh;
+            margin-bottom: 20vh;
+        }
+
+        /* footer link */
+        .a {
+            text-decoration: none;
+            color: white;
         }
 
         .footer {
             background-color: #6C71E0;
+            font-family: 'Lato', sans-serif;
             color: white;
             height: 200px;
             padding-top: 5%;
@@ -57,15 +94,23 @@
             line-height: 40px;
         }
 
-        a {
+        .headings {
+            margin-left: 5%;
+            font-family: 'Lato', sans-serif;
+            font-weight: bolder;
+            font-size: 45px;
+            text-decoration: underline #6C71E0;
+        }
+
+
+        .a1 {
             text-decoration: none;
-            color: white;
             font-family: Lato, sans-serif;
+            color: black;
         }
 
         a:visited {
             text-decoration: none;
-            color: white;
             font-family: Lato, sans-serif;
         }
     </style>
@@ -77,35 +122,36 @@
 
     <!-- navbar -->
     <nav class="nav">
-        <span class="nav-content">Home</span>
-        <span class="nav-content"><b>About</b></span>
+        <span class="nav-content"> <a href="index.html" class="a1">Home</a></span>
+        <span class="nav-content-active"><a href="about us.html" class="a1">About</a></span>
         <span class="nav-content">Pets in UAE</span>
         <span class="nav-content">Others</span>
     </nav><br><br><br><br>
-    <img src="src/another dog.svg" class="sidepic""></img>
+    <div class="headings">About Us</div>
+    <img src="src/another dog.svg" class="sidepic"></img>
     <div class=" maintext">
-    Our mission is to be the trusted authority on pets. We advocate for responsible pet ownership
-    and seek to build a global community of informed and caring pet owners.
-    <br><br>
-    Written for the current or prospective pet owner who wants to learn how to better care for their pets, each
-    piece of content we publish is:
-    <ul>
-        <li>Research Backed</li>
-        <li>Carefully fact-checked</li>
-    </ul>
-    <br><br> On this website you'll also find:
-    <ul>
-        <li>Available Breeds</li>
-        <li>Names for your pets</li>
-        <li>Animal Friendly Areas</li>
-        <li>Vaccine Diary</li>
-    </ul>
+        Our mission is to be the trusted authority on pets. We advocate for responsible pet ownership
+        and seek to build a global community of informed and caring pet owners.
+        <br><br>
+        Written for the current or prospective pet owner who wants to learn how to better care for their pets, each
+        piece of content we publish is:
+        <ul>
+            <li>Research Backed</li>
+            <li>Carefully fact-checked</li>
+        </ul>
+        <br><br> On this website you'll also find:
+        <ul>
+            <li>Available Breeds</li>
+            <li>Names for your pets</li>
+            <li>Animal Friendly Areas</li>
+            <li>Vaccine Diary</li>
+        </ul>
     </div> <br><br>
     <div class="footer">
-        <a href="index.html">Home</a><br>
-        <a href="about us.html"><b>About Us</b></a><br>
-        <a href="#">Vaccine Diary</a><br>
-        <a href="#">Pet Library</a><br>
+        <a href="index.html" class="a">Home</a><br>
+        <a href="about us.html" class="a">About Us</a><br>
+        <a href="#" class="a">Vaccine Diary</a><br>
+        <a href="#" class="a">Pet Library</a><br>
     </div>
 </body>
 
