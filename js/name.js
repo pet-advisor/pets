@@ -1,7 +1,7 @@
 function submit() {
     let petNames = [
         // this is dogs
-        { male: "Doggo <br> Sweetu", female: "Doggi<br>Sweeti" },
+        { male: "Doggo (Personal Favorite) <br> Sweetu", female: "Doggi<br>Sweeti" },
         // this is cats
         { male: "Cutie<br>Goosie<br>Luci<br>Leo", female: "Lioness<br>Gucy<br>Luci<br>Zoyi" },
         // add parrot next

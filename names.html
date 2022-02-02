@@ -12,6 +12,22 @@
             margin: 0px;
         }
 
+        /* Find Names button */
+        .btn {
+            background: #8472e1;
+            color: white;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            font-size: 16px;
+            border: none;
+            border-radius: 25px;
+            height: 30%;
+            width: 20vh;
+            vertical-align: middle;
+            height: 7vh;
+            margin-left: 5%;
+        }
+
         /* Logo Image */
         .logo {
             width: 14%;
@@ -26,11 +42,39 @@
             font-size: 22px;
         }
 
-        /* The links in the navbar */
         .nav-content {
             font-family: 'Lato', sans-serif;
             margin-right: 3%;
             margin-left: 3%;
+            width: 100px;
+            font-size: larger;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .nav-content:hover {
+            background-color: #dbceff;
+            border-radius: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .nav-content-active {
+            font-size: larger;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            margin-right: 3%;
+            margin-left: 3%;
+            background-color: #d0bfff;
+            border-radius: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 20px;
+            padding-left: 20px;
         }
 
         /* Headings Level 1*/
@@ -90,6 +134,23 @@
             height: 1.5em;
             border-radius: 4px;
         }
+
+        .names {
+            margin-left: 5%;
+            font-family: Lato, sans-serif;
+            margin-top: 1%;
+        }
+
+        .a1 {
+            text-decoration: none;
+            font-family: Lato, sans-serif;
+            color: black;
+        }
+
+        a:visited {
+            text-decoration: none;
+            font-family: Lato, sans-serif;
+        }
     </style>
 </head>
 <script src="./js/name.js"></script>
@@ -100,10 +161,10 @@
 
     <!-- navbar -->
     <nav class="nav">
-        <span class="nav-content">Home</span>
-        <span class="nav-content">About</span>
+        <span class="nav-content"> <a href="index.html" class="a1">Home</a></span>
+        <span class="nav-content"><a href="about us.html" class="a1">About</a></span>
         <span class="nav-content">Pets in UAE</span>
-        <span class="nav-content"><b>Others</b></span>
+        <span class="nav-content-active">Others</span>
     </nav><br><br><br><br>
 
     <div class="headings-1">Naming your Pets</div>
@@ -131,6 +192,14 @@
         <option value="3">Fishes</option>
         <option value="4">Hamster</option>
     </select>
+    <select name="Gender" id="gender">
+        <option value="male">Male</option>
+        <option value="a">Female</option>
+    </select>
+    <br><br>
+    <button class="btn" onclick="submit()">Find Names</button>
+    <div class="names" id="display"></div>
+    <br>
 </body>
 
 </html>
