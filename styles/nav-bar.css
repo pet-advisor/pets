@@ -48,13 +48,14 @@
     color: black;
     background-color: inherit;
     font: inherit;
-    margin: 0;
     font-size: larger;
     font-family: 'Lato', sans-serif;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 20px;
     padding-left: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
@@ -73,7 +74,6 @@
     width: 100%;
     left: 0;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
   }
   
   .dropdown-content .header {
@@ -89,11 +89,11 @@
   /* Create three equal columns that floats next to each other */
   .column {
     float: left;
-    width: 67.71vh;
+    width: 32.68%;
     padding: 10px;
     background-color: #ccc;
     height: 40vh;
-    margin-right: -2.6vh;
+    margin-right:-2vh;
   }
   
   .column a {
