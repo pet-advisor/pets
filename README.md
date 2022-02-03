@@ -10,6 +10,6 @@ The website has many features like a vaccine diary, a name picker, resources, an
 Team:
 
 1) Faizaan Nasir: Grade 10, faizaan-nasir
-2) Sathya Mitiran: Grade 10, god-knows
+2) Sathya Mitiran: Grade 10, Sath-Hya
 3) Shiv Gorantiwar: Grade 10, Shiv-gorantiwar
 4) Tanmeen Patel, Grade 10, TanmeenPatel
