@@ -68,6 +68,7 @@
   }
   
   .dropdown-content {
+    font-family: 'Lato', sans-serif;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -77,9 +78,9 @@
   }
   
   .dropdown-content .header {
-    background: red;
+    background: #c1aaff;
     padding: 16px;
-    color: white;
+    color: black;
   }
   
   .dropdown:hover .dropdown-content {
@@ -91,7 +92,7 @@
     float: left;
     width: 32.68%;
     padding: 10px;
-    background-color: #ccc;
+    background-color: #cdc3ff;
     height: 40vh;
     margin-right:-2vh;
   }
@@ -106,7 +107,7 @@
   }
   
   .column a:hover {
-    background-color: #ddd;
+    background-color: #b5a7ff;
   }
   
   /* Clear floats after the columns */
