@@ -3,6 +3,14 @@
     font-size: 22px;
 }
 
+        /* Logo Image */
+        .logo {
+          width: 14%;
+          margin-left: 43%;
+          margin-right: 43%;
+          margin-bottom: 3%;
+      }
+
 .nav-content {
     font-family: 'Lato', sans-serif;
     margin-right: 3%;
