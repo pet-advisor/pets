@@ -28,36 +28,48 @@
             margin-bottom: 2%;
         }
 
-        a {
-            text-decoration: none;
-            color: black;
+        /* Navbar  */
+        .nav {
+            text-align: center;
+            font-size: 22px;
         }
 
-        .landing {
-            height: 370px;
-            width: 370px;
-            margin-left: 61%;
-            margin-top: -2%;
-        }
-
-        .landing-text {
+        .nav-content {
             font-family: 'Lato', sans-serif;
-            font-size: 25px;
-            margin-left: 11%;
-            width: 90vh;
-
+            margin-right: 3%;
+            margin-left: 3%;
         }
+		
+		a{
+			text-decoration:none;
+			color: black;
+		}
+		
+        .landing
+    {
+        height: 370px;
+        width: 370px;
+        margin-left: 61%;
+        margin-top: -2%;
+    }
+    .landing-text
+    {
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+        margin-left: 11%;
+		width: 90vh;
 
-        .cats {
-            font-family: 'Lato', sans-serif;
+    }
+    .cats
+    {
+        font-family: 'Lato', sans-serif;
             font-weight: bolder;
             margin-top: -11em;
             font-size: 34px;
             margin-left: 11%;
             text-decoration: underline #6C71E0;
-        }
-
-        .btn {
+    }
+    .btn {
             background: #8472E1;
             font-family: 'Poppins', sans-serif;
             margin-left: 11%;
@@ -72,8 +84,7 @@
 
         .btn:hover {
             background: #6C71E0;
-        }
-
+}
         .footer {
             background-color: #6C71E0;
             color: white;
@@ -83,100 +94,77 @@
             font-size: 20px;
             line-height: 40px;
         }
+        
+		
     </style>
 </head>
 
 <body>
     <!-- logo -->
-    <img src="./src/logo.svg" class="logo">
+        <img src="./src/logo.svg" class="logo">
+    
+        <!-- navbar -->
+        <nav class="nav">
+            <span class="nav-content"><a href="index.html">Home</a></span>
+            <span class="nav-content"><a href="about us.html">About</a></span>
+            <span class="nav-content"><b>Pets in UAE</b></span>
+            <span class="nav-content">Others</span>
+        </nav>
+    
+     
+      
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+    
+        <img src="./src/cats_main.svg" class="landing">    
+        <div class="cats">Cats</div>
+<p>
+    <div class="landing-text"> 
+    Only domesticated species in the family Felidae and is 
+    often referred to as the domestic cat to distinguish it 
+    from the wild members of the family. Cats spend between 
+    30 to 50 percent of their day grooming themselves. The 
+    ridged pattern on cat’s nose is as unique as a human 
+    fingerprint. They have a life span of 12-18 years.</div>
+</p>
+<button href="#" class="btn">
+    &nbsp; &nbsp; Find a Cat &nbsp; &nbsp;
+</button>
 
-    <!-- navbar -->
-    <nav class="nav">
-        <span class="nav-content"><a href="index.html">Home</a></span>
-        <span class="nav-content"><a href="about us.html">About</a></span>
-        <span class="dropdown"><button class="dropbtn">Others</button>
-            <div class="dropdown-content">
-                <div class="header">
-                    <h2>Mega Menu</h2>
-                </div>
-                <div class="row">
-                    <div class="column">
-                        <h3>Pets in UAE</h3>
-                        <a href="dogs-info.html">Dogs</a>
-                        <a href="cats-info.html">Cats</a>
-                        <a href="birds-info.html">Birds</a>
-                    </div>
-                    <div class="column">
-                        <h3>Awareness</h3>
-                        <a href="find vets.html">Closeby Vets</a>
-                        <a href="others-scam.html">Scam Awareness</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                    <div class="column">
-                        <h3>Category 3</h3>
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div>
-            </div>
-        </span>
-    </nav>
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
 
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-    <img src="./src/cats_main.svg" class="landing">
-    <div class="cats">Cats</div>
-    <p>
-    <div class="landing-text">
-        Only domesticated species in the family Felidae and is
-        often referred to as the domestic cat to distinguish it
-        from the wild members of the family. Cats spend between
-        30 to 50 percent of their day grooming themselves. The
-        ridged pattern on cat’s nose is as unique as a human
-        fingerprint. They have a life span of 12-18 years.</div>
-    </p>
-    <button href="#" class="btn">
-        &nbsp; &nbsp; Find a Cat &nbsp; &nbsp;
-    </button>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-
+    
     <img src="./src/cats_1.svg" class="landing">
+	
+<div class="cats">Maine Coon</div>
+<p>
+    <div class="landing-text"> 
+     Largest domesticated cat breed which has a distinctive 
+     physical appearance and valuable hunting skills. It is 
+     characterized by a prominent ruff along its chest, 
+     robust bone structure, rectangular body shape, an 
+     uneven two-layered coat with longer guard hairs over a 
+     silky satin undercoat. It is one of the oldest natural 
+     breeds in North America, specifically native to the US 
+     state of Maine, where it is the official state cat.</div>
+</p>
 
-    <div class="cats">Maine Coon</div>
-    <p>
-    <div class="landing-text">
-        Largest domesticated cat breed which has a distinctive
-        physical appearance and valuable hunting skills. It is
-        characterized by a prominent ruff along its chest,
-        robust bone structure, rectangular body shape, an
-        uneven two-layered coat with longer guard hairs over a
-        silky satin undercoat. It is one of the oldest natural
-        breeds in North America, specifically native to the US
-        state of Maine, where it is the official state cat.</div>
-    </p>
-
-    <br>
+<br>
     <br>
     <br>
     <br>
@@ -185,25 +173,26 @@
     <br>
     <br>
 
-
-
+ 
+    
 
     <img src="./src/cats_2.svg" class="landing">
+	
+<div class="cats">Persian Cat</div>
+<p>
+    <div class="landing-text">  
+     A long-haired breed of cat characterized by 
+     its round face and short muzzle. Persian cat 
+     is also known as "furniture with fur" because 
+     of its lazy nature and ability to remain 
+     motionless for hours. It is called "Persian" 
+     because it was exported from Iran, or ancient 
+     Persia. Persians might look prissy and aloof, 
+     but they’re actually considered to be one of 
+     the most low-maintenance and friendliest cat breeds.</div>
+</p>
 
-    <div class="cats">Persian Cat</div>
-    <p>
-    <div class="landing-text">
-        A long-haired breed of cat characterized by
-        its round face and short muzzle. Persian cat
-        is also known as "furniture with fur" because
-        of its lazy nature and ability to remain
-        motionless for hours. It is called "Persian"
-        because it was exported from Iran, or ancient
-        Persia. Persians might look prissy and aloof,
-        but they’re actually considered to be one of
-        the most low-maintenance and friendliest cat breeds.</div>
-    </p>
-
+<br>
     <br>
     <br>
     <br>
@@ -211,55 +200,55 @@
     <br>
     <br>
     <br>
-    <br>
-
-
+ 
+    
 
     <img src="./src/cats_3.svg" class="landing">
-
-    <div class="cats">British Shorthair</div>
-    <p>
-    <div class="landing-text">
-        The British Shorthair is a relatively powerful-
-        looking large cat, having a broad chest, strong
-        thick-set legs with rounded paws and a medium-
-        length, blunt-tipped tail. The head is relatively
-        large and rounded, with a short muzzle, broad cheeks
-        and large round eyes that are deep coppery orange in
-        the British Blue and otherwise vary in colour depending
-        on the coat. Their large ears are broad and widely set</div>
-    </p>
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+	
+<div class="cats">British Shorthair</div>
+<p>
+    <div class="landing-text">  
+    The British Shorthair is a relatively powerful-
+    looking large cat, having a broad chest, strong 
+    thick-set legs with rounded paws and a medium-
+    length, blunt-tipped tail. The head is relatively 
+    large and rounded, with a short muzzle, broad cheeks 
+    and large round eyes that are deep coppery orange in 
+    the British Blue and otherwise vary in colour depending 
+    on the coat. Their large ears are broad and widely set</div>
+</p>
 
 
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+ 
+    
 
     <img src="./src/cats_4.svg" class="landing">
+	
+<div class="cats">Scottish Fold</div>
+<p>
+    <div class="landing-text"> The German Shepherd is a popular pet in Dubai,   
+     though they are also used as guard dogs.   
+     A breed of domestic cat, with ears that 
+     fold bending forward and down towards 
+     the front of the head. They are also 
+     known for sitting with their legs 
+     stretched out and their paws on their 
+     belly. This position is called the 
+     "Buddha Position". Unlike many other 
+     cats, Scottish Fold likes to sleep on 
+     its back. They have a life span of 9 to 
+     12 years.</div>
+</p>
 
-    <div class="cats">Scottish Fold</div>
-    <p>
-    <div class="landing-text"> The German Shepherd is a popular pet in Dubai,
-        though they are also used as guard dogs.
-        A breed of domestic cat, with ears that
-        fold bending forward and down towards
-        the front of the head. They are also
-        known for sitting with their legs
-        stretched out and their paws on their
-        belly. This position is called the
-        "Buddha Position". Unlike many other
-        cats, Scottish Fold likes to sleep on
-        its back. They have a life span of 9 to
-        12 years.</div>
-    </p>
-
+<br>
     <br>
     <br>
     <br>
@@ -267,28 +256,28 @@
     <br>
     <br>
     <br>
-    <br>
-
-
+ 
+    
 
     <img src="./src/cats_5.svg" class="landing">
+	
+<div class="cats">Egyptian Mau</div>
+<p>
+    <div class="landing-text"> 
+     A breed of domestic cat that has M-shaped 
+     dark markings on the forehead, two black 
+     lines on cheeks and dark bands on the tail. 
+     The most important recognizable "traits" of 
+     this particular animal is a long, dark, 
+     dorsal stripe that runs from its head to its 
+     tail along its spine. It is the only 
+     domesticated cat with a naturally occurring 
+     spotted coat. It ranks as one of the most 
+     athletic and agile cat breeds. They have a 
+     life span of 12-15 years.</div>
+</p>
 
-    <div class="cats">Egyptian Mau</div>
-    <p>
-    <div class="landing-text">
-        A breed of domestic cat that has M-shaped
-        dark markings on the forehead, two black
-        lines on cheeks and dark bands on the tail.
-        The most important recognizable "traits" of
-        this particular animal is a long, dark,
-        dorsal stripe that runs from its head to its
-        tail along its spine. It is the only
-        domesticated cat with a naturally occurring
-        spotted coat. It ranks as one of the most
-        athletic and agile cat breeds. They have a
-        life span of 12-15 years.</div>
-    </p>
-
+<br>
     <br>
     <br>
     <br>
@@ -296,28 +285,28 @@
     <br>
     <br>
     <br>
-    <br>
-
-
+ 
+    
 
     <img src="./src/cats_6.svg" class="landing">
+	
+<div class="cats">Devon Rex</div>
+<p>
+    <div class="landing-text"> 
+     A breed of short-haired cat, known for its 
+     slender body, wavy coat, and large ears. They 
+     are a very intelligent breed; the typical Devon 
+     Rex can be trained to walk on a leash, fetch or 
+     perform all manner of tricks usually associated 
+     with canines, like jump, heel. Unlike most cats, 
+     their whiskers are very short and often curled to 
+     such an extent that it may appear as if they have 
+     no whiskers. Devons, which are medium-sized cats, 
+     are often called "pixie cats" or "alien cats" 
+     because of their unique appearance.</div>
+</p>
 
-    <div class="cats">Devon Rex</div>
-    <p>
-    <div class="landing-text">
-        A breed of short-haired cat, known for its
-        slender body, wavy coat, and large ears. They
-        are a very intelligent breed; the typical Devon
-        Rex can be trained to walk on a leash, fetch or
-        perform all manner of tricks usually associated
-        with canines, like jump, heel. Unlike most cats,
-        their whiskers are very short and often curled to
-        such an extent that it may appear as if they have
-        no whiskers. Devons, which are medium-sized cats,
-        are often called "pixie cats" or "alien cats"
-        because of their unique appearance.</div>
-    </p>
-
+<br>
     <br>
     <br>
     <br>
@@ -325,28 +314,28 @@
     <br>
     <br>
     <br>
-    <br>
-
-
+ 
+    
 
     <img src="./src/cats_7.svg" class="landing">
-
-    <div class="cats">Siamese</div>
-    <p>
+	
+<div class="cats">Siamese</div>
+<p>
     <div class="landing-text">
-        Hundreds of years ago, Siamese cats were
-        treasured by royal families in Thailand
-        because of their distinctive, unusual, and
-        beautiful appearances. The Siamese cat comes
-        in two distinct variations: traditional, with
-        an apple-shaped head and a slightly chubby
-        body; or the modern Siamese, which are very
-        skinny and have a wedge-shaped head. All
-        Siamese kittens, although pure cream or white
-        at birth, develop visible points in the first
-        few months of life in colder parts of their body.</div>
-    </p>
+     Hundreds of years ago, Siamese cats were 
+     treasured by royal families in Thailand 
+     because of their distinctive, unusual, and 
+     beautiful appearances. The Siamese cat comes 
+     in two distinct variations: traditional, with
+      an apple-shaped head and a slightly chubby 
+      body; or the modern Siamese, which are very 
+      skinny and have a wedge-shaped head. All 
+      Siamese kittens, although pure cream or white 
+      at birth, develop visible points in the first 
+      few months of life in colder parts of their body.</div>
+</p>
 
+<br>
     <br>
     <br>
     <br>
@@ -354,25 +343,25 @@
     <br>
     <br>
     <br>
-    <br>
-
-
+ 
+    
 
     <img src="./src/cats_8.svg" class="landing">
+	
+<div class="cats">Birman</div>
+<p>
+    <div class="landing-text"> 
+     A long-haired, color-pointed cat with a broad face 
+     and a distinct Roman nose. It was said that they 
+     were given their luxurious coat and stunningly blue 
+     eyes as a reward from a goddess due to their 
+     dedication and loyalty to a priest.  Their coat color
+    is always pointed, save for the contrasting pure white, 
+    symmetrical "gloves" on each paw that are the trademark 
+    of the breed.</div>
+</p>
 
-    <div class="cats">Birman</div>
-    <p>
-    <div class="landing-text">
-        A long-haired, color-pointed cat with a broad face
-        and a distinct Roman nose. It was said that they
-        were given their luxurious coat and stunningly blue
-        eyes as a reward from a goddess due to their
-        dedication and loyalty to a priest. Their coat color
-        is always pointed, save for the contrasting pure white,
-        symmetrical "gloves" on each paw that are the trademark
-        of the breed.</div>
-    </p>
-
+<br>
     <br>
     <br>
     <br>
@@ -380,27 +369,27 @@
     <br>
     <br>
     <br>
-    <br>
-
-
+ 
+    
 
     <img src="./src/cats_9.svg" class="landing">
+	
+<div class="cats">Carcal</div>
+<p>
+    <div class="landing-text"> 
+     A slender, moderately sized cat characterized 
+     by a robust build, a short face, long canine 
+     teeth, tufted ears, and long legs. They appear 
+     to have been religiously significant in the 
+     ancient Egyptian culture, as it occurs in 
+     paintings and as bronze figurines. It can leap 
+     higher than 4 meters (12 ft) and catch birds in 
+     midair. Their extraordinary ears each have over 
+     20 muscles that swivel around like satellite 
+     dishes to detect sounds of their prey.</div>
+</p>
 
-    <div class="cats">Carcal</div>
-    <p>
-    <div class="landing-text">
-        A slender, moderately sized cat characterized
-        by a robust build, a short face, long canine
-        teeth, tufted ears, and long legs. They appear
-        to have been religiously significant in the
-        ancient Egyptian culture, as it occurs in
-        paintings and as bronze figurines. It can leap
-        higher than 4 meters (12 ft) and catch birds in
-        midair. Their extraordinary ears each have over
-        20 muscles that swivel around like satellite
-        dishes to detect sounds of their prey.</div>
-    </p>
-
+<br>
     <br>
     <br>
     <br>
@@ -408,25 +397,25 @@
     <br>
     <br>
     <br>
-    <br>
-
-
+ 
+    
 
     <img src="./src/cats_10.svg" class="landing">
+	
+<div class="cats">Munchkin</div>
+<p>
+    <div class="landing-text"> 
+     A small to medium-sized cat characterized by its 
+     very short legs, with a moderate body type and 
+     medium-plush coat. They have a lot of energy for 
+     speed and agility and can turn corners like a furry 
+     race car and stay low on the ground to get enough 
+     traction.  Munchkins are frequently found sitting 
+     up on their hind legs like a rabbit in order to get 
+     a better glimpse of something that has caught their eye.</div>
+</p>
 
-    <div class="cats">Munchkin</div>
-    <p>
-    <div class="landing-text">
-        A small to medium-sized cat characterized by its
-        very short legs, with a moderate body type and
-        medium-plush coat. They have a lot of energy for
-        speed and agility and can turn corners like a furry
-        race car and stay low on the ground to get enough
-        traction. Munchkins are frequently found sitting
-        up on their hind legs like a rabbit in order to get
-        a better glimpse of something that has caught their eye.</div>
-    </p>
-
+<br>
     <br>
     <br>
     <br>
@@ -434,23 +423,23 @@
     <br>
     <br>
     <br>
-    <br>
-
-
+ 
+    
 
     <img src="./src/cats_11.svg" class="landing">
+	
+<div class="cats">Bengal Cat</div>
+<p>
+    <div class="landing-text">  
+     A domesticated cat breed created from hybrids of 
+     domestic cats, especially the spotted Egyptian Mau, 
+     with the Asian leopard cat. It is the Rolls Royce of 
+     cat world. Bengals are larger than the average house 
+     cat because of their muscular bodies. They are an 
+     energetic breed which needs much exercise and play.</div>
+</p>
 
-    <div class="cats">Bengal Cat</div>
-    <p>
-    <div class="landing-text">
-        A domesticated cat breed created from hybrids of
-        domestic cats, especially the spotted Egyptian Mau,
-        with the Asian leopard cat. It is the Rolls Royce of
-        cat world. Bengals are larger than the average house
-        cat because of their muscular bodies. They are an
-        energetic breed which needs much exercise and play.</div>
-    </p>
-
+<br>
     <br>
     <br>
     <br>
@@ -458,36 +447,35 @@
     <br>
     <br>
     <br>
-    <br>
-
-
+ 
+    
 
     <img src="./src/cats_12.svg" class="landing">
+	
+<div class="cats">Ragdoll</div>
+<p>
+    <div class="landing-text"> 
+     A large and muscular semi-longhair cat with a color 
+     point coat and blue eyes. They are one of the largest 
+     domesticated cat breeds, with a sturdy body, large 
+     frame, and proportionate legs. The genes for point 
+     coloration are responsible for the distinctive blue 
+     eyes of the Ragdoll.</div>
+</p>
 
-    <div class="cats">Ragdoll</div>
-    <p>
-    <div class="landing-text">
-        A large and muscular semi-longhair cat with a color
-        point coat and blue eyes. They are one of the largest
-        domesticated cat breeds, with a sturdy body, large
-        frame, and proportionate legs. The genes for point
-        coloration are responsible for the distinctive blue
-        eyes of the Ragdoll.</div>
-    </p>
-
-    <br>
+<br>
     <br>
     <br>
     <br>
     <br>
     <br>
 
-    <div class="footer">
-        <a href="index.html">Home</a><br>
-        <a href="about us.html">About Us</a><br>
-        <a href="#"><b>Pets in UAE</b></a><br>
-        <a href="#">Others</a><br>
-    </div>
+<div class="footer">
+    <a href="index.html">Home</a><br>
+    <a href="about us.html">About Us</a><br>
+    <a href="#"><b>Pets in UAE</b></a><br>
+    <a href="#">Others</a><br>
+</div>
 </body>
 
 </html>
