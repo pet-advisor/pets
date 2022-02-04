@@ -29,64 +29,54 @@
             margin-bottom: 2%;
         }
 
-        /* Navbar  */
-        .nav {
-            text-align: center;
-            font-size: 22px;
+        a {
+            text-decoration: none;
+            color: black;
         }
 
-        .nav-content {
-            font-family: 'Lato', sans-serif;
-            margin-right: 3%;
-            margin-left: 3%;
+        .landing {
+            margin-left: 145vh;
+            margin-top: -10vh;
+            height: 47vh;
+            width: 47vh;
         }
-		
-		a{
-			text-decoration:none;
-			color: black;
-		}
-		
-        .landing
-    {
-    margin-left: 145vh;
-    margin-top: -10vh;
-    height: 47vh;
-    width: 47vh;
-    }
-        .landing-text{
-        font-family: 'Lato', sans-serif;
-        font-size: 25px;
-        margin-left: 11%;
-        width: 80vh;
-        margin-top: 2vh;
-        height: 60vh;
-         }
-    .dogs
-    {
-        font-family: 'Lato', sans-serif;
+
+        .landing-text {
+            font-family: 'Lato', sans-serif;
+            font-size: 25px;
+            margin-left: 11%;
+            width: 80vh;
+            margin-top: 2vh;
+            height: 60vh;
+        }
+
+        .dogs {
+            font-family: 'Lato', sans-serif;
             font-weight: bolder;
             margin-top: -12em;
             font-size: 34px;
             margin-left: 11%;
             text-decoration: underline #6C71E0;
-    }
-    .btn {
-        background: #8472E1;
-        font-family: 'Poppins', sans-serif;
-        text-align: center;
-        font-size: 25px;
-        border: none;
-        border-radius: 25px;
-        height: 30%;
-        vertical-align: middle;
-        height: 7vh;
-        margin-top: -50vh;
-        margin-left: 11%;
+        }
+
+        .btn {
+            background: #8472E1;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            font-size: 25px;
+            border: none;
+            border-radius: 25px;
+            height: 30%;
+            vertical-align: middle;
+            height: 7vh;
+            margin-top: -50vh;
+            margin-left: 11%;
         }
 
         .btn:hover {
             background: #6C71E0;
-}
+        }
+
         .footer {
             background-color: #6C71E0;
             color: white;
@@ -96,25 +86,48 @@
             font-size: 20px;
             line-height: 40px;
         }
-        
-		
     </style>
 </head>
 
 <body>
-<!-- logo -->
+    <!-- logo -->
     <img src="./src/logo.svg" class="logo">
 
     <!-- navbar -->
     <nav class="nav">
         <span class="nav-content"><a href="index.html">Home</a></span>
         <span class="nav-content"><a href="about us.html">About</a></span>
-        <span class="nav-content"><b>Pets in UAE</b></span>
-        <span class="nav-content">Others</span>
+        <span class="dropdown"><button class="dropbtn">Others</button>
+            <div class="dropdown-content">
+                <div class="header">
+                    <h2>Mega Menu</h2>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3>Pets in UAE</h3>
+                        <a href="dogs-info.html">Dogs</a>
+                        <a href="cats-info.html">Cats</a>
+                        <a href="birds-info.html">Birds</a>
+                    </div>
+                    <div class="column">
+                        <h3>Awareness</h3>
+                        <a href="find vets.html">Closeby Vets</a>
+                        <a href="others-scam.html">Scam Awareness</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <div class="column">
+                        <h3>Category 3</h3>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+        </span>
     </nav>
 
- 
-  
+
+
     <br>
     <br>
     <br>
@@ -123,29 +136,28 @@
     <br>
     <br>
     <br>
-   
+
 
 
 
     <img src="./src/dogs_main.svg" class="landing">
-	
-<div class="dogs">Dogs</div>
-<p>
-    <div class="landing-text"> They have been bred by humans for a long time, and    
-    probably were the first animals ever to be domesticated.
-     Today, some dogs are used as pets, others are used to
-  help humans do their work. They are a popular pet because
- they are usually playful, friendly, and listen to humans
-     They are fast, energetic and good sports companions. They
-   normally have a life span of 10-13 years but some breeds
-    can live up to 20 years too.</div>
-</p>
-<button href="#" class="btn">
-    &nbsp; &nbsp; Find a Dog &nbsp; &nbsp;
-</button>
+
+    <div class="dogs">Dogs</div>
+    <p>
+    <div class="landing-text"> They have been bred by humans for a long time, and
+        probably were the first animals ever to be domesticated.
+        Today, some dogs are used as pets, others are used to
+        help humans do their work. They are a popular pet because
+        they are usually playful, friendly, and listen to humans
+        They are fast, energetic and good sports companions. They
+        normally have a life span of 10-13 years but some breeds
+        can live up to 20 years too.</div>
+    </p>
+    <button href="#" class="btn">
+        &nbsp; &nbsp; Find a Dog &nbsp; &nbsp;
+    </button>
 
 
-<br>
     <br>
     <br>
     <br>
@@ -153,27 +165,28 @@
     <br>
     <br>
     <br>
-    
+    <br>
 
-    
+
+
     <img src="./src/dogs_1.svg" class="landing">
-	
-<div class="dogs">Yorkshire terrier</div>
-<p>
-    <div class="landing-text"> Tiny but full of personality, these dogs are popular    
-     world over. They are affectionate family dogs that
-     are happy to play and run around with children, or
-     cuddle up with family members. Originating from
-     rainy Yorkshire in England, these dogs do
-     surprisingly well in warmer climates, perhaps due
-     to their silky fur. Their small size also makes them
-     great apartment dogs, though they can be difficult 
-     to housetrain and their yappy nature may annoy
-     your neighbours – take time to train your dog
-     from an early stage to avoid these problems.</div>
-</p>
 
-<br>
+    <div class="dogs">Yorkshire terrier</div>
+    <p>
+    <div class="landing-text"> Tiny but full of personality, these dogs are popular
+        world over. They are affectionate family dogs that
+        are happy to play and run around with children, or
+        cuddle up with family members. Originating from
+        rainy Yorkshire in England, these dogs do
+        surprisingly well in warmer climates, perhaps due
+        to their silky fur. Their small size also makes them
+        great apartment dogs, though they can be difficult
+        to housetrain and their yappy nature may annoy
+        your neighbours – take time to train your dog
+        from an early stage to avoid these problems.</div>
+    </p>
+
+    <br>
     <br>
     <br>
     <br>
@@ -182,27 +195,26 @@
     <br>
     <br>
 
- 
-    
+
+
 
     <img src="./src/dogs_2.svg" class="landing">
-	
-<div class="dogs">Havanese</div>
-<p>
-    <div class="landing-text"> Affectionate yet agile, the Havanese is a versatile   
-     dog breed, which may explain its popularity. 
-     Originating from Cuba, these little dogs have silky
-     coats that help shield them from the sun, which
-     makes them ideal dogs for the Middle East. They
-     adapt easily to apartment life due to their small
-     size. They are affectionate, though they may suffer
-     from separation anxiety. Don’t mistake the  
-     Havanese for a mere lapdog – they are very agile
-     and intelligent, and excel in many canine sports
-     and careers, such as assisting the handicapped.</div>
-</p>
 
-<br>
+    <div class="dogs">Havanese</div>
+    <p>
+    <div class="landing-text"> Affectionate yet agile, the Havanese is a versatile
+        dog breed, which may explain its popularity.
+        Originating from Cuba, these little dogs have silky
+        coats that help shield them from the sun, which
+        makes them ideal dogs for the Middle East. They
+        adapt easily to apartment life due to their small
+        size. They are affectionate, though they may suffer
+        from separation anxiety. Don’t mistake the
+        Havanese for a mere lapdog – they are very agile
+        and intelligent, and excel in many canine sports
+        and careers, such as assisting the handicapped.</div>
+    </p>
+
     <br>
     <br>
     <br>
@@ -210,28 +222,28 @@
     <br>
     <br>
     <br>
- 
-    
+    <br>
+
+
 
     <img src="./src/dogs_3.svg" class="landing">
-	
-<div class="dogs">Cavalier King Charles Spaniel</div>
-<p>
-    <div class="landing-text"> Small, sweet-tempered and sporty, the Cavalier is   
-    one of the most popular dogs in the world. These  
-    beautiful, energetic and gentle dogs are ideal for
-    families, and are very trainable. Cavaliers
-    sometimes suffer from separation anxiety, so 
-    shouldn’t be left alone for long time periods. They
-    also need daily exercise to keep them fit and
-    prevent them from becoming bored, as a bored 
-    Cavalier may be destructive. Make sure not to
-    take them out during the hottest hours of the day,
-    as Cavaliers don’t always do well in hot climates.</div>
-</p>
+
+    <div class="dogs">Cavalier King Charles Spaniel</div>
+    <p>
+    <div class="landing-text"> Small, sweet-tempered and sporty, the Cavalier is
+        one of the most popular dogs in the world. These
+        beautiful, energetic and gentle dogs are ideal for
+        families, and are very trainable. Cavaliers
+        sometimes suffer from separation anxiety, so
+        shouldn’t be left alone for long time periods. They
+        also need daily exercise to keep them fit and
+        prevent them from becoming bored, as a bored
+        Cavalier may be destructive. Make sure not to
+        take them out during the hottest hours of the day,
+        as Cavaliers don’t always do well in hot climates.</div>
+    </p>
 
 
-<br>
     <br>
     <br>
     <br>
@@ -239,29 +251,29 @@
     <br>
     <br>
     <br>
- 
-    
+    <br>
+
+
 
     <img src="./src/dogs_4.svg" class="landing">
-	
-<div class="dogs">German Shepherds</div>
-<p>
-    <div class="landing-text"> The German Shepherd is a popular pet in Dubai,   
-     though they are also used as guard dogs.   
-     Shepherds are large, intelligent dogs and are easily
-     trained. They are also very versatile and have been 
-     used for herding, agility, police work, guide dog
-     work, and many other disciplines. Although they
-     often have reserved characters, they are very loyal
-     dogs and make good family pets. German Shepherds
-     needs to be socialised and trained from an early
-     age to make sure they grow up to be well behaved dogs. 
-     Due to their large size, they may not be the best 
-     apartment dogs. They also need regular daily exercise: 
-     both physical and mental.</div>
-</p>
 
-<br>
+    <div class="dogs">German Shepherds</div>
+    <p>
+    <div class="landing-text"> The German Shepherd is a popular pet in Dubai,
+        though they are also used as guard dogs.
+        Shepherds are large, intelligent dogs and are easily
+        trained. They are also very versatile and have been
+        used for herding, agility, police work, guide dog
+        work, and many other disciplines. Although they
+        often have reserved characters, they are very loyal
+        dogs and make good family pets. German Shepherds
+        needs to be socialised and trained from an early
+        age to make sure they grow up to be well behaved dogs.
+        Due to their large size, they may not be the best
+        apartment dogs. They also need regular daily exercise:
+        both physical and mental.</div>
+    </p>
+
     <br>
     <br>
     <br>
@@ -269,28 +281,28 @@
     <br>
     <br>
     <br>
- 
-    
+    <br>
+
+
 
     <img src="./src/dogs_5.svg" class="landing">
-	
-<div class="dogs">Cane Corso</div>
-<p>
-    <div class="landing-text"> Also called the Italian Mastiff, these dogs 
-     are often used as guard dogs due to their 
-     powerful and muscular build. They are also 
-    loyal family dogs, though often uninterested 
-    or suspicious of strangers. The Corso hails 
-    from Italy, so they cope well with the Dubai 
-    heat. The Corso gets bored very easily. A 
-    bored Corso will probably dig holes and chew 
-    the furniture if given nothing to do, so find
-     an activity for him to do, such as agility or 
-     obedience classes. An active Cane Corso is a 
-     happy Corso.</div>
-</p>
 
-<br>
+    <div class="dogs">Cane Corso</div>
+    <p>
+    <div class="landing-text"> Also called the Italian Mastiff, these dogs
+        are often used as guard dogs due to their
+        powerful and muscular build. They are also
+        loyal family dogs, though often uninterested
+        or suspicious of strangers. The Corso hails
+        from Italy, so they cope well with the Dubai
+        heat. The Corso gets bored very easily. A
+        bored Corso will probably dig holes and chew
+        the furniture if given nothing to do, so find
+        an activity for him to do, such as agility or
+        obedience classes. An active Cane Corso is a
+        happy Corso.</div>
+    </p>
+
     <br>
     <br>
     <br>
@@ -298,25 +310,25 @@
     <br>
     <br>
     <br>
- 
-    
+    <br>
+
+
 
     <img src="./src/dogs_6.svg" class="landing">
-	
-<div class="dogs">Golden Retriever</div>
-<p>
-    <div class="landing-text"> The Retriever is perhaps the quintessential family dog. 
-     Cheerful, trustworthy, and playful, this dog is 
-     universally beloved. They are great with children and 
-     other pets, intelligent and eager to please, and ideal 
-     for first-time dog owners. Retrievers are large dogs 
-     and prone to shedding, so they will be happier in a 
-     house than an apartment. Be sure to find a reputable 
-     Breeder, as Golden Retrievers are prone to health 
-     problems such as hip dysplasia.</div>
-</p>
 
-<br>
+    <div class="dogs">Golden Retriever</div>
+    <p>
+    <div class="landing-text"> The Retriever is perhaps the quintessential family dog.
+        Cheerful, trustworthy, and playful, this dog is
+        universally beloved. They are great with children and
+        other pets, intelligent and eager to please, and ideal
+        for first-time dog owners. Retrievers are large dogs
+        and prone to shedding, so they will be happier in a
+        house than an apartment. Be sure to find a reputable
+        Breeder, as Golden Retrievers are prone to health
+        problems such as hip dysplasia.</div>
+    </p>
+
     <br>
     <br>
     <br>
@@ -324,25 +336,25 @@
     <br>
     <br>
     <br>
- 
-    
+    <br>
+
+
 
     <img src="./src/dogs_7.svg" class="landing">
-	
-<div class="dogs">Great Dane</div>
-<p>
-    <div class="landing-text"> Dubai is the city of superlatives: the richest, 
-     the hottest, the biggest. The Great Dane 
-     certainly fits into that last category, and 
-     often appeals to those who wish to impress. 
-     The Great Dane is a typical gentle giant: their 
-     size belies their friendly nature. Great Danes 
-     aren’t particularly active and are surprisingly 
-     comfortable in apartments, although they may 
-     accidentally knock things over due to their size.</div>
-</p>
 
-<br>
+    <div class="dogs">Great Dane</div>
+    <p>
+    <div class="landing-text"> Dubai is the city of superlatives: the richest,
+        the hottest, the biggest. The Great Dane
+        certainly fits into that last category, and
+        often appeals to those who wish to impress.
+        The Great Dane is a typical gentle giant: their
+        size belies their friendly nature. Great Danes
+        aren’t particularly active and are surprisingly
+        comfortable in apartments, although they may
+        accidentally knock things over due to their size.</div>
+    </p>
+
     <br>
     <br>
     <br>
@@ -350,26 +362,26 @@
     <br>
     <br>
     <br>
- 
-    
+    <br>
+
+
 
     <img src="./src/dogs_8.svg" class="landing">
-	
-<div class="dogs">Pomeranian</div>
-<p>
-    <div class="landing-text"> From the largest dogs to one of the smallest, 
-     here’s the Pomeranian. Don’t tell the Pomeranian 
-     what he can and can’t do, because these little 
-     dogs are very determined and are often on par 
-     with bigger dogs in disciplines such as agility, 
-     search and rescue, and obedience training. These 
-     little dogs will be happy to live in an apartment 
-     but don’t enjoy the heat of Dubai due to their 
-     fluffy coats; luckily air conditioning helps to 
-     keep them comfortable.</div>
-</p>
 
-<br>
+    <div class="dogs">Pomeranian</div>
+    <p>
+    <div class="landing-text"> From the largest dogs to one of the smallest,
+        here’s the Pomeranian. Don’t tell the Pomeranian
+        what he can and can’t do, because these little
+        dogs are very determined and are often on par
+        with bigger dogs in disciplines such as agility,
+        search and rescue, and obedience training. These
+        little dogs will be happy to live in an apartment
+        but don’t enjoy the heat of Dubai due to their
+        fluffy coats; luckily air conditioning helps to
+        keep them comfortable.</div>
+    </p>
+
     <br>
     <br>
     <br>
@@ -377,37 +389,38 @@
     <br>
     <br>
     <br>
- 
-    
+    <br>
+
+
 
     <img src="./src/dogs_9.svg" class="landing">
-	
-<div class="dogs">Beagle</div>
-<p>
-    <div class="landing-text"> A short-furred breed with large soulful eyes, 
-     Beagles are playful and friendly, and popular 
-     all over the world. They make fantastic pets, 
-     especially for families with children, and are 
-     very intelligent, if a bit stubborn. Beagles 
-     have a few quirky behaviours, such as the baying 
-     sounds they make when they are lonely or smell 
-     something interesting, which is important to keep 
-     in mind if you lived in an apartment.</div>
-</p>
 
-<br>
+    <div class="dogs">Beagle</div>
+    <p>
+    <div class="landing-text"> A short-furred breed with large soulful eyes,
+        Beagles are playful and friendly, and popular
+        all over the world. They make fantastic pets,
+        especially for families with children, and are
+        very intelligent, if a bit stubborn. Beagles
+        have a few quirky behaviours, such as the baying
+        sounds they make when they are lonely or smell
+        something interesting, which is important to keep
+        in mind if you lived in an apartment.</div>
+    </p>
+
+    <br>
     <br>
     <br>
     <br>
     <br>
     <br>
 
-<div class="footer">
-    <a href="index.html">Home</a><br>
-    <a href="about us.html">About Us</a><br>
-    <a href="#"><b>Pets in UAE</b></a><br>
-    <a href="#">Others</a><br>
-</div>
+    <div class="footer">
+        <a href="index.html">Home</a><br>
+        <a href="about us.html">About Us</a><br>
+        <a href="#"><b>Pets in UAE</b></a><br>
+        <a href="#">Others</a><br>
+    </div>
 </body>
 
 </html>
