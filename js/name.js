@@ -6,7 +6,7 @@ function submit() {
         },
         // this is cats
         {
-            male: "Cutie<br>Goosie<br>Luci<br>Leo", female: "Lioness<br>Gucy<br>Luci<br>Zoyi"
+            male: "Oliver <br> Leo <br> Milo <br> Charlie <br> Max <br> Jack <br> Simba <br> Loki <br> Oscar <br> Jasper", female: "Lioness<br>Gucy<br>Luci<br>Zoyi"
         },
         // add parrot next
         // after that add fishes
