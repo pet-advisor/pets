@@ -51,29 +51,17 @@
   }
   
   .dropdown .dropbtn {
-    border: none;
-    outline: none;
-    color: black;
     background-color: inherit;
     font: inherit;
-    font-size: larger;
     font-family: 'Lato', sans-serif;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 20px;
     padding-left: 20px;
-    margin-left: 3%;
     margin-right: 3%;
+    border: none;
   }
   
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #dbceff;
-    border-radius: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
   
   .dropdown-content {
     font-family: 'Lato', sans-serif;
