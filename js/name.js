@@ -6,7 +6,7 @@ function submit() {
         },
         // this is cats
         {
-            male: "Oliver <br> Leo <br> Milo <br> Charlie <br> Max <br> Jack <br> Simba <br> Loki <br> Oscar <br> Jasper", female: "Lioness<br>Gucy<br>Luci<br>Zoyi"
+            male: "Oliver <br> Leo <br> Milo <br> Charlie <br> Max <br> Jack <br> Simba <br> Loki <br> Oscar <br> Jasper", female: "Taz <br> Betsy <br> Beatrice <br> Blitzen <br> Betty <br> Crystal <br> Camile <br> Delia <br> Sabrina <br> Shasta <br> Snow White <br> Sugar <br> Abigail <br> Alice"
         },
         // add parrot next
         // after that add fishes
