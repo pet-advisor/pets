@@ -11,8 +11,11 @@ function submit() {
         // add parrot next
         {
             male: "Alien <br> Andre <br> Quentin <br> Plato <br> Ace <br> Tweety <br> Ziggy <br> Sparky <br> Flash <br> Remus <br> Santiago <br> Samuel <br> Johnny <br> Coco", female: "Kiwi <br> Baby <br> Tweety <br> Kiki <br> Cookie <br> Lola <br> Polly <br> Jenny <br> Tasha <br> Tara <br> Cutie <br> Berri <br> Iago"
-        }
+        },
         // after that add fishes
+        {
+            female: "Goldie <br> Dory <br> Ariel <br> Angel (ideal for angelfish) <br> Minnie <br> Jewel <br> Nessie (for a large fish species) <br> Penny <br> Crystal <br> Coral", male: "Nemo <br> Bubbles <br> Jack <br> Captain <br> Finley <br> Blue <br> Moby <br> Bubba <br> Squirt <br> Shadow"
+        }
         // after that add Hamster
     ]
     let x = document.getElementById("dpdn").value
