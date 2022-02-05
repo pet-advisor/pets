@@ -9,6 +9,9 @@ function submit() {
             male: "Oliver <br> Leo <br> Milo <br> Charlie <br> Max <br> Jack <br> Simba <br> Loki <br> Oscar <br> Jasper", female: "Taz <br> Betsy <br> Beatrice <br> Blitzen <br> Betty <br> Crystal <br> Camile <br> Delia <br> Sabrina <br> Shasta <br> Snow White <br> Sugar <br> Abigail <br> Alice"
         },
         // add parrot next
+        {
+            male: "Alien <br> Andre <br> Quentin <br> Plato <br> Ace <br> Tweety <br> Ziggy <br> Sparky <br> Flash <br> Remus <br> Santiago <br> Samuel <br> Johnny <br> Coco", female: "Kiwi <br> Baby <br> Tweety <br> Kiki <br> Cookie <br> Lola <br> Polly <br> Jenny <br> Tasha <br> Tara <br> Cutie <br> Berri <br> Iago"
+        }
         // after that add fishes
         // after that add Hamster
     ]
