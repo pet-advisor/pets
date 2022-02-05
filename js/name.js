@@ -2,10 +2,12 @@ function submit() {
     let petNames = [
         // this is dogs
         {
-            male: "Doggo (Personal Favorite) <br> Sweetu", female: "Sweeti<br>Angel<br>Biscuit <br> Buttercup <br> Cookie <br>Cupcake<br>Fluffy<br>Happy<br>Marigold<br>Marshmallow<br>Peaches<br>Precious<br>Sugar<br>Sunshine<br>Sweetie<br>Waffles<br>Astrid<br>Britta<br>Dumpling<br>Elsa"
+            male: "Doggo (Personal Favorite) <br> Sweetu <br> Ace <BR> Albert <BR> Baxter <BR> Charlie <BR> Duke <BR> Elvis<BR> Finn<BR> Harley <BR> Moose <BR> Oscar <BR> Petey <BR> Prince <BR> Sammy <BR> Thor <BR> Ziggy", female: "Angel <BR> Biscuit <BR> Buttercup <BR> Cookie <BR> Cupcake <BR> Fluffy <BR> Happy <BR> Marigold <BR> Marshmallow <BR> Peaches <BR> Precious <BR> Sugar <BR> Sunshine <BR> Sweetie <BR> Waffles <BR> Astrid <BR> Britta <BR> Dumpling <BR> Elsa <BR> Gretel <BR> Heidi <BR> Lotti <BR> Milla <BR> Nia <BR> Sascha <BR> Schnapps <BR> Schnitzel <BR> Strudel <BR> Zelda"
         },
         // this is cats
-        { male: "Cutie<br>Goosie<br>Luci<br>Leo", female: "Lioness<br>Gucy<br>Luci<br>Zoyi" },
+        {
+            male: "Cutie<br>Goosie<br>Luci<br>Leo", female: "Lioness<br>Gucy<br>Luci<br>Zoyi"
+        },
         // add parrot next
         // after that add fishes
         // after that add Hamster
