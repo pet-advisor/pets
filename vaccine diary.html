@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta "viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/nav-bar.css">
     <link rel="icon" href="./src/favicon.png" type="image/x-icon">
     <title>Vaccine Diary</title>
@@ -116,7 +116,8 @@
     </style>
 </head>
 
-<body>
+<body onload="load()">
+    <script src="./js/diary.js"></script>
     <img src="./src/logo.svg" class="logo">
     <nav class="nav">
         <span class="nav-content"><a href="index.html" class="a1">Home</a></span>
@@ -196,44 +197,39 @@
             <th>Name Of Vaccine</th>
             <th>Date Received</th>
             <th>Next Date (if)</th>
-            <th>Relevant Files</th>
         </tr>
         <tr>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="name" id="name1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="date" id="date1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="name1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="rdate1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="ndate1" cols="10" rows="1" placeholder="type here..."></textarea></td>
         </tr>
         <tr>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="sno2" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="name2" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="rdate2" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="ndate2" cols="10" rows="1" placeholder="type here..."></textarea></td>
         </tr>
         <tr>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="sno3" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="name3" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="rdate3" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="ndate3" cols="10" rows="1" placeholder="type here..."></textarea></td>
         </tr>
         <tr>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="sno4" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="name4" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="rdate4" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="ndate4" cols="10" rows="1" placeholder="type here..."></textarea></td>
         </tr>
         <tr>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="sno5" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="name5" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="rdate5" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="ndate5" cols="10" rows="1" placeholder="type here..."></textarea></td>
         </tr>
     </table>
+    <button onclick="save()">submit</button>
     <br><br>
     <div class="footer">
         <a class="a" href="index.html">Home</a><br>
