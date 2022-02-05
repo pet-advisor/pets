@@ -20,69 +20,10 @@ function save() {
     localStorage.name5 = document.getElementById("name5").value
     localStorage.rdate5 = document.getElementById("rdate5").value
     localStorage.ndate5 = document.getElementById("ndate5").value
+    document.getElementById("verified").innerHTML = "Data Submitted Sucessfully"
 }
 
 function load() {
-    if (localStorage.sno1 == "undefined") {
-        localStorage.sno1 = ""
-    }
-    if (localStorage.sno2 == "undefined") {
-        localStorage.sno2 = ""
-    }
-    if (localStorage.sno3 == "undefined") {
-        localStorage.sno3 = ""
-    }
-    if (localStorage.sno4 == "undefined") {
-        localStorage.sno4 = ""
-    }
-    if (localStorage.sno5 == "undefined") {
-        localStorage.sno5 = ""
-    }
-    if (localStorage.name1 == "undefined") {
-        localStorage.name1 = ""
-    }
-    if (localStorage.name2 == "undefined") {
-        localStorage.name2 = ""
-    }
-    if (localStorage.name3 == "undefined") {
-        localStorage.name3 = ""
-    }
-    if (localStorage.name4 == "undefined") {
-        localStorage.name4 = ""
-    }
-    if (localStorage.name5 == "undefined") {
-        localStorage.name5 = ""
-    }
-    if (localStorage.rdate1 == "undefined") {
-        localStorage.rdate1 = ""
-    }
-    if (localStorage.rdate2 == "undefined") {
-        localStorage.rdate2 = ""
-    }
-    if (localStorage.rdate3 == "undefined") {
-        localStorage.rdate3 = ""
-    }
-    if (localStorage.rdate4 == "undefined") {
-        localStorage.rdate4 = ""
-    }
-    if (localStorage.rdate5 == "undefined") {
-        localStorage.rdate5 = ""
-    }
-    if (localStorage.ndate1 == "undefined") {
-        localStorage.ndate1 = ""
-    }
-    if (localStorage.ndate2 == "undefined") {
-        localStorage.ndate2 = ""
-    }
-    if (localStorage.ndate3 == "undefined") {
-        localStorage.ndate3 = ""
-    }
-    if (localStorage.ndate4 == "undefined") {
-        localStorage.ndate4 = ""
-    }
-    if (localStorage.ndate5 == "undefined") {
-        localStorage.ndate5 = ""
-    }
     document.getElementById("sno1").innerHTML = localStorage.sno1
     document.getElementById("name1").innerHTML = localStorage.name1
     document.getElementById("rdate1").innerHTML = localStorage.rdate1
@@ -103,4 +44,86 @@ function load() {
     document.getElementById("name5").innerHTML = localStorage.name5
     document.getElementById("rdate5").innerHTML = localStorage.rdate5
     document.getElementById("ndate5").innerHTML = localStorage.ndate5
+    let a = document.getElementById("sno1").value
+    if (a == "undefined") {
+        document.getElementById("sno1").innerHTML = ""
+    }
+    let b = document.getElementById("sno2").value
+    if (b == "undefined") {
+        document.getElementById("sno2").innerHTML = ""
+    }
+    let c = document.getElementById("sno3").value
+    if (c == "undefined") {
+        document.getElementById("sno3").innerHTML = ""
+    }
+    let d = document.getElementById("sno4").value
+    if (d == "undefined") {
+        document.getElementById("sno4").innerHTML = ""
+    }
+    let e = document.getElementById("sno5").value
+    if (e == "undefined") {
+        document.getElementById("sno5").innerHTML = ""
+    }
+    let f = document.getElementById("name1").value
+    if (f == "undefined") {
+        document.getElementById("name1").innerHTML = ""
+    }
+    let g = document.getElementById("name2").value
+    if (g == "undefined") {
+        document.getElementById("name2").innerHTML = ""
+    }
+    let h = document.getElementById("name3").value
+    if (h == "undefined") {
+        document.getElementById("name3").innerHTML = ""
+    }
+    let i = document.getElementById("name4").value
+    if (i == "undefined") {
+        document.getElementById("name4").innerHTML = ""
+    }
+    let j = document.getElementById("name5").value
+    if (j == "undefined") {
+        document.getElementById("name5").innerHTML = ""
+    }
+    let k = document.getElementById("rdate1").value
+    if (k == "undefined") {
+        document.getElementById("rdate1").innerHTML = ""
+    }
+    let l = document.getElementById("rdate2").value
+    if (l == "undefined") {
+        document.getElementById("rdate2").innerHTML = ""
+    }
+    let m = document.getElementById("rdate3").value
+    if (m == "undefined") {
+        document.getElementById("rdate3").innerHTML = ""
+    }
+    let n = document.getElementById("rdate4").value
+    if (n == "undefined") {
+        document.getElementById("rdate4").innerHTML = ""
+    }
+    let o = document.getElementById("rdate5").value
+    if (o == "undefined") {
+        document.getElementById("rdate5").innerHTML = ""
+    }
+    let p = document.getElementById("ndate1").value
+    if (p == "undefined") {
+        document.getElementById("ndate1").innerHTML = ""
+    }
+    let q = document.getElementById("ndate2").value
+    if (q == "undefined") {
+        document.getElementById("ndate2").innerHTML = ""
+    }
+    let r = document.getElementById("ndate3").value
+    if (r == "undefined") {
+        document.getElementById("ndate3").innerHTML = ""
+    }
+    let s = document.getElementById("ndate4").value
+    if (s == "undefined") {
+        document.getElementById("ndate4").innerHTML = ""
+    }
+    let t = document.getElementById("ndate5").value
+    if (t == "undefined") {
+        document.getElementById("ndate5").innerHTML = ""
+    }
+
+
 }

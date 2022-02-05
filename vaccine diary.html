@@ -21,6 +21,22 @@
 
         }
 
+        .button {
+            background: #8472E1;
+            font-family: 'Poppins', sans-serif;
+            margin-left: 5%;
+            margin-top: 5%;
+            text-align: center;
+            font-size: 25px;
+            border: none;
+            border-radius: 20px;
+            height: 30%;
+            vertical-align: middle;
+            padding-left: 30px;
+            padding-right: 30px;
+            height: 7vh;
+        }
+
         .sidepic {
             margin-top: 0;
             width: 55vh;
@@ -113,6 +129,20 @@
             font-family: 'Lato', sans-serif;
             border: none;
         }
+
+        .a {
+            text-decoration: none;
+            font-family: 'Lato', sans-serif;
+            color: white;
+        }
+
+        .verify {
+            color: green;
+            font-family: 'Lato', sans-serif;
+            margin-top: 1%;
+            margin-bottom: 5%;
+            margin-left: 5%;
+        }
     </style>
 </head>
 
@@ -187,8 +217,9 @@
     </div>
     <div class="sub-headings">What's the Vaccine Diary?</div>
     <div class="maintext">
-        The vaccine diary is a convenient and easy way to store data about your pet's vaccinations and related
-        documents. It allows you to keep track of what all vaccines your pet has received.
+        The vaccine diary is a convenient and easy way to store data about your pet's vaccinations. It allows you to
+        keep track of what all vaccines your pet has received. Once you have entered the details, please scroll down to
+        locate the "Submit" button.
     </div>
     <table>
         <colgroup span="5"></colgroup>
@@ -229,8 +260,9 @@
             <td><textarea id="ndate5" cols="10" rows="1" placeholder="type here..."></textarea></td>
         </tr>
     </table>
-    <button onclick="save()">submit</button>
-    <br><br>
+    <button onclick="save()" class="button">Submit</button>
+    <div class="verify" id="verified"></div>
+
     <div class="footer">
         <a class="a" href="index.html">Home</a><br>
         <a class="a" href="about us.html">About Us</a><br>
