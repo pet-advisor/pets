@@ -15,8 +15,11 @@ function submit() {
         // after that add fishes
         {
             female: "Goldie <br> Dory <br> Ariel <br> Angel (ideal for angelfish) <br> Minnie <br> Jewel <br> Nessie (for a large fish species) <br> Penny <br> Crystal <br> Coral", male: "Nemo <br> Bubbles <br> Jack <br> Captain <br> Finley <br> Blue <br> Moby <br> Bubba <br> Squirt <br> Shadow"
-        }
+        },
         // after that add Hamster
+        {
+            male: "Earl Gray <br> Fat Boy <br> Frankenstein <br> Fuz-Butt <br> Hamburger <br> Gigabyte <br> Googly <br> Hobbes <br> Naguli <br> Nosey <br> Megabyte <br> Monkey <br> Moses <br> Piglet <br> Poppa Roach <br> Scooby Doo <br> Wiggles", female: "Bonnie <br> Boo <br> Brownie <br> Buttercup <br> Butterscotch <br> Buttons <br> Cashmere <br> Catnip <br> Cheeks <br> Chili <br> Chiquita <br> Cinderella <br> Cocoa <br> Cookie <br> Cottonball <br> Creampuff <br> Cuddles"
+        }
     ]
     let x = document.getElementById("dpdn").value
     let y = document.getElementById("gender").value
