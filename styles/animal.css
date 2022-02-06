@@ -3,7 +3,7 @@ html{
 }
 .landing-text {
     font-family: 'Lato', sans-serif;
-    font-size: 25px;
+    font-size: 23px;
     margin-left: 7%;
     width: 100vh;
     margin-bottom: 7vh;
@@ -19,8 +19,20 @@ html{
     margin-bottom: 3vh;
 }
 
+.footer {
+    font-family: 'Lato', sans-serif;
+    background-color: #6C71E0;
+    color: white;
+    height: 170px;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 20px;
+    line-height: 40px;
+}
+
 .btn {
     background: #8472E1;
+    color: white;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 25px;
@@ -57,3 +69,12 @@ html{
     text-decoration: none;
     color: black;
 }
+
+.a2 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
