@@ -125,3 +125,28 @@
     font-family: Lato, sans-serif;
     color: black;
 }
+#warning-message {
+  display: none;
+  margin: 5px;
+  padding: 7px;
+}
+
+@media only screen and (orientation:portrait) {
+
+  #wrapper {
+    display: none;
+  }
+
+  #warning-message {
+    display: block;
+  }
+
+}
+
+@media only screen and (orientation:landscape) {
+
+  #warning-message {
+    display: none;
+  }
+
+}

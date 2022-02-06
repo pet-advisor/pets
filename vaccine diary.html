@@ -148,126 +148,137 @@
 </head>
 
 <body onload="load()">
-    <script src="./js/diary.js"></script>
-    <img src="./src/logo.svg" class="logo">
-    <nav class="nav">
-        <span class="nav-content"><a href="index.html" class="a1">Home</a></span>
-        <span class="nav-content"><a href="about us.html" class="a1">About</a></span>
-        <span class="dropdown"><button class="dropbtn"><span class="nav-content-active"> Others</span></button>
-            <div class="dropdown-content">
-                <div class="header">
-                    <h2>Other Pages</h2>
-                </div>
-                <div class="row">
-                    <div class="column">
-                        <h3>Pets in UAE</h3>
-                        <a href="dogs-info.html" class="a1">Dogs</a>
-                        <a href="cats-info.html" class="a1">Cats</a>
-                        <a href="birds-info.html" class="a1">Birds</a>
-                        <!-- <a href="aqpets-info.html" class="a1">Aquatic Animals</a> -->
-                    </div>
-                    <div class="column">
-                        <h3>Awareness</h3>
-                        <a href="restaurants.html" class="a1">Pet Friendly Restaurants</a>
-                        <a href="scams.html" class="a1">Scams</a>
-                        <a href="Pet-Friendly-Areas.html" class="a1">Pet Friendly Areas</a>
-                    </div>
-                    <div class="column">
-                        <h3>Our Tools</h3>
-                        <a href="names.html" class="a1">Names For Pets</a>
-                        <a href="vaccine diary.html" class="a1">Vaccine Diary</a>
-                        <a href="find vets.html" class="a1">Vet Finder</a>
-                    </div>
-                </div>
-            </div>
-        </span>
-    </nav>
-    <br><br><br><br>
-    <img src="src/vaccine1.svg" class="sidepic"></img>
-    <div class=" headings">Vaccine Diary</div>
+    <div id="warning-message">
+        <h1 align="center" class="height:100%; vertical-align:middle;">This Website Will Not Work In Potrait Mode</h1>
+    </div>
+    <div id="wrapper">
 
-    <div class=" maintext">
-        Recently, there has been a lot of controversy around whether we should get vaccines and this begs for the
-        question -
-        should we vaccinate our pets? Short answer - yes.
-        <br><br>
-        There are obviously a few mild side-effects for a few days, but the benefts of getting your pet vaccinated far
-        outweigh the few risks.
-    </div>
-    <div class="sub-headings">What are the risks of vaccinating my pet?</div>
-    <div class="maintext">
-        The most likely vaccination complications include tissue swelling around the injection site; mild signs of
-        illness and allergic reactions to the vaccine. The likelihood of a dangerous reaction is low, whereas the
-        likelihood of your pet developing a life-threatening disease if he is not vaccinated is much higher.
-    </div>
-    <img src="src/vaccine2.svg" class="sidepic"></img>
-    <div class="sub-headings-2">What all vaccines should my pet receive?</div>
-    <div class="maintext">
-        Your veterinarian will determine what vaccines your pet should receive on the basis of:
-        <br>
-        <ul>
-            <li>Age: A specific vaccination is necessary to help puppies and kittens build resistance to disease while
-                the immunity passed from their mothers wears off.</li><br>
-            <li> Geography: Exposure risk to some diseases is higher in some geographic areas; for example, Lyme disease
-                is most prevalent in heavily wooded areas.</li><br>
-            <li> Lifestyle: Cats who live solely indoors with no contact with other cats have little risk of exposure to
-                feline leukemia and may not need this vaccination. But if your cat goes outside, it has a higher
-                exposure risk and should be vaccinated.
-            </li>
-        </ul>
-    </div>
-    <div class="sub-headings">What's the Vaccine Diary?</div>
-    <div class="maintext">
-        The vaccine diary is a convenient and easy way to store data about your pet's vaccinations. It allows you to
-        keep track of what all vaccines your pet has received. Once you have entered the details, please scroll down to
-        locate the "Submit" button.
-    </div>
-    <table>
-        <colgroup span="5"></colgroup>
-        <tr>
-            <th>S.No</th>
-            <th>Name Of Vaccine</th>
-            <th>Date Received</th>
-            <th>Next Date (if)</th>
-        </tr>
-        <tr>
-            <td><textarea id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="name1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="rdate1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="ndate1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-        </tr>
-        <tr>
-            <td><textarea id="sno2" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="name2" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="rdate2" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="ndate2" cols="10" rows="1" placeholder="type here..."></textarea></td>
-        </tr>
-        <tr>
-            <td><textarea id="sno3" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="name3" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="rdate3" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="ndate3" cols="10" rows="1" placeholder="type here..."></textarea></td>
-        </tr>
-        <tr>
-            <td><textarea id="sno4" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="name4" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="rdate4" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="ndate4" cols="10" rows="1" placeholder="type here..."></textarea></td>
-        </tr>
-        <tr>
-            <td><textarea id="sno5" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="name5" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="rdate5" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea id="ndate5" cols="10" rows="1" placeholder="type here..."></textarea></td>
-        </tr>
-    </table>
-    <button onclick="save()" class="button">Submit</button>
-    <div class="verify" id="verified"></div>
+        <script src="./js/diary.js"></script>
+        <img src="./src/logo.svg" class="logo">
+        <nav class="nav">
+            <span class="nav-content"><a href="index.html" class="a1">Home</a></span>
+            <span class="nav-content"><a href="about us.html" class="a1">About</a></span>
+            <span class="dropdown"><button class="dropbtn"><span class="nav-content-active"> Others</span></button>
+                <div class="dropdown-content">
+                    <div class="header">
+                        <h2>Other Pages</h2>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h3>Pets in UAE</h3>
+                            <a href="dogs-info.html" class="a1">Dogs</a>
+                            <a href="cats-info.html" class="a1">Cats</a>
+                            <a href="birds-info.html" class="a1">Birds</a>
+                            <!-- <a href="aqpets-info.html" class="a1">Aquatic Animals</a> -->
+                        </div>
+                        <div class="column">
+                            <h3>Awareness</h3>
+                            <a href="restaurants.html" class="a1">Pet Friendly Restaurants</a>
+                            <a href="scams.html" class="a1">Scams</a>
+                            <a href="Pet-Friendly-Areas.html" class="a1">Pet Friendly Areas</a>
+                        </div>
+                        <div class="column">
+                            <h3>Our Tools</h3>
+                            <a href="names.html" class="a1">Names For Pets</a>
+                            <a href="vaccine diary.html" class="a1">Vaccine Diary</a>
+                            <a href="find vets.html" class="a1">Vet Finder</a>
+                        </div>
+                    </div>
+                </div>
+            </span>
+        </nav>
+        <br><br><br><br>
+        <img src="src/vaccine1.svg" class="sidepic"></img>
+        <div class=" headings">Vaccine Diary</div>
 
-    <div class="footer">
-        <a href="index.html" class="a">Home</a><br>
-        <a href="about us.html" class="a">About Us</a><br>
-        <a href="#" class="a"><i>Back to Top</i></a><br>
+        <div class=" maintext">
+            Recently, there has been a lot of controversy around whether we should get vaccines and this begs for the
+            question -
+            should we vaccinate our pets? Short answer - yes.
+            <br><br>
+            There are obviously a few mild side-effects for a few days, but the benefts of getting your pet vaccinated
+            far
+            outweigh the few risks.
+        </div>
+        <div class="sub-headings">What are the risks of vaccinating my pet?</div>
+        <div class="maintext">
+            The most likely vaccination complications include tissue swelling around the injection site; mild signs of
+            illness and allergic reactions to the vaccine. The likelihood of a dangerous reaction is low, whereas the
+            likelihood of your pet developing a life-threatening disease if he is not vaccinated is much higher.
+        </div>
+        <img src="src/vaccine2.svg" class="sidepic"></img>
+        <div class="sub-headings-2">What all vaccines should my pet receive?</div>
+        <div class="maintext">
+            Your veterinarian will determine what vaccines your pet should receive on the basis of:
+            <br>
+            <ul>
+                <li>Age: A specific vaccination is necessary to help puppies and kittens build resistance to disease
+                    while
+                    the immunity passed from their mothers wears off.</li><br>
+                <li> Geography: Exposure risk to some diseases is higher in some geographic areas; for example, Lyme
+                    disease
+                    is most prevalent in heavily wooded areas.</li><br>
+                <li> Lifestyle: Cats who live solely indoors with no contact with other cats have little risk of
+                    exposure to
+                    feline leukemia and may not need this vaccination. But if your cat goes outside, it has a higher
+                    exposure risk and should be vaccinated.
+                </li>
+            </ul>
+        </div>
+        <div class="sub-headings">What's the Vaccine Diary?</div>
+        <div class="maintext">
+            The vaccine diary is a convenient and easy way to store data about your pet's vaccinations. It allows you to
+            keep track of what all vaccines your pet has received. Once you have entered the details, please scroll down
+            to
+            locate the "Submit" button.
+        </div>
+        <table>
+            <colgroup span="5"></colgroup>
+            <tr>
+                <th>S.No</th>
+                <th>Name Of Vaccine</th>
+                <th>Date Received</th>
+                <th>Next Date (if)</th>
+            </tr>
+            <tr>
+                <td><textarea id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="name1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="rdate1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="ndate1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            </tr>
+            <tr>
+                <td><textarea id="sno2" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="name2" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="rdate2" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="ndate2" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            </tr>
+            <tr>
+                <td><textarea id="sno3" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="name3" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="rdate3" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="ndate3" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            </tr>
+            <tr>
+                <td><textarea id="sno4" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="name4" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="rdate4" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="ndate4" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            </tr>
+            <tr>
+                <td><textarea id="sno5" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="name5" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="rdate5" cols="10" rows="1" placeholder="type here..."></textarea></td>
+                <td><textarea id="ndate5" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            </tr>
+        </table>
+        <button onclick="save()" class="button">Submit</button>
+        <div class="verify" id="verified"></div>
+
+        <div class="footer">
+            <a href="index.html" class="a">Home</a><br>
+            <a href="about us.html" class="a">About Us</a><br>
+            <a href="#" class="a"><i>Back to Top</i></a><br>
+        </div>
     </div>
 </body>
 

@@ -130,82 +130,88 @@
 <script src="./js/name.js"></script>
 
 <body>
-    <!-- logo -->
-    <img src="./src/logo.svg" class="logo">
-
-    <!-- navbar -->
-    <nav class="nav">
-        <span class="nav-content"><a href="index.html" class="a1">Home</a></span>
-        <span class="nav-content"><a href="about us.html" class="a1">About</a></span>
-        <span class="dropdown"><button class="dropbtn"><span class="nav-content-active">Others</span></button>
-            <div class="dropdown-content">
-                <div class="header">
-                    <h2>Other Pages</h2>
-                </div>
-                <div class="row">
-                    <div class="column">
-                        <h3>Pets in UAE</h3>
-                        <a href="dogs-info.html" class="a1">Dogs</a>
-                        <a href="cats-info.html" class="a1">Cats</a>
-                        <a href="birds-info.html" class="a1">Birds</a>
-                        <!-- <a href="aqpets-info.html" class="a1">Aquatic Animals</a> -->
-                    </div>
-                    <div class="column">
-                        <h3>Awareness</h3>
-                        <a href="restaurants.html" class="a1">Pet Friendly Restaurants</a>
-                        <a href="scams.html" class="a1">Scams</a>
-                        <a href="Pet-Friendly-Areas.html" class="a1">Pet Friendly Areas</a>
-                    </div>
-                    <div class="column">
-                        <h3>Our Tools</h3>
-                        <a href="names.html" class="a1">Names For Pets</a>
-                        <a href="vaccine diary.html" class="a1">Vaccine Diary</a>
-                        <a href="find vets.html" class="a1">Vet Finder</a>
-                    </div>
-                </div>
-        </span>
-    </nav>
-    <br><br><br><br>
-
-    <div class="headings-1">Naming your Pets</div>
-    <img src="src/hamster.svg" class="sidepic"></img>
-
-    <div class=" maintext">
-        Having trouble naming your pet? No worries, Pet Adviser is here.
-        <br><br>
-        Using the naming tool on our website, you can get random names for your pets which you can actually use or take
-        inspiration from and create a unique name for your unique pet.
+    <div id="warning-message">
+        <h1 align="center" class="height:100%; vertical-align:middle;">This Website Will Not Work In Potrait Mode</h1>
     </div>
-    <br><br>
-    <div class="headings-2">How it Works</div>
-    <div class=" maintext-2">
-        Click on the dropdown list and choose your pet and the gender of your pet.
+    <div id="wrapper">
+
+        <!-- logo -->
+        <img src="./src/logo.svg" class="logo">
+
+        <!-- navbar -->
+        <nav class="nav">
+            <span class="nav-content"><a href="index.html" class="a1">Home</a></span>
+            <span class="nav-content"><a href="about us.html" class="a1">About</a></span>
+            <span class="dropdown"><button class="dropbtn"><span class="nav-content-active">Others</span></button>
+                <div class="dropdown-content">
+                    <div class="header">
+                        <h2>Other Pages</h2>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h3>Pets in UAE</h3>
+                            <a href="dogs-info.html" class="a1">Dogs</a>
+                            <a href="cats-info.html" class="a1">Cats</a>
+                            <a href="birds-info.html" class="a1">Birds</a>
+                            <!-- <a href="aqpets-info.html" class="a1">Aquatic Animals</a> -->
+                        </div>
+                        <div class="column">
+                            <h3>Awareness</h3>
+                            <a href="restaurants.html" class="a1">Pet Friendly Restaurants</a>
+                            <a href="scams.html" class="a1">Scams</a>
+                            <a href="Pet-Friendly-Areas.html" class="a1">Pet Friendly Areas</a>
+                        </div>
+                        <div class="column">
+                            <h3>Our Tools</h3>
+                            <a href="names.html" class="a1">Names For Pets</a>
+                            <a href="vaccine diary.html" class="a1">Vaccine Diary</a>
+                            <a href="find vets.html" class="a1">Vet Finder</a>
+                        </div>
+                    </div>
+            </span>
+        </nav>
+        <br><br><br><br>
+
+        <div class="headings-1">Naming your Pets</div>
+        <img src="src/hamster.svg" class="sidepic"></img>
+
+        <div class=" maintext">
+            Having trouble naming your pet? No worries, Pet Adviser is here.
+            <br><br>
+            Using the naming tool on our website, you can get random names for your pets which you can actually use or
+            take
+            inspiration from and create a unique name for your unique pet.
+        </div>
         <br><br>
-        After doing so, click on the “Find Names” button underneath the dropdown lists.
-    </div><br><br>
-    <div class="headings-2">Get Names</div>
-    <br><br>
-    <select name="Pet" id="dpdn">
-        <option value="0">Dog</option>
-        <option value="1">Cat</option>
-        <option value="2">Parrot</option>
-        <option value="3">Fishes</option>
-        <option value="4">Hamster</option>
-    </select>
-    <select name="Gender" id="gender">
-        <option value="male">Male</option>
-        <option value="a">Female</option>
-    </select>
-    <br><br>
-    <button class="btn" onclick="submit()">Find Names</button><br>
-    <div class="names" id="display"></div>
+        <div class="headings-2">How it Works</div>
+        <div class=" maintext-2">
+            Click on the dropdown list and choose your pet and the gender of your pet.
+            <br><br>
+            After doing so, click on the “Find Names” button underneath the dropdown lists.
+        </div><br><br>
+        <div class="headings-2">Get Names</div>
+        <br><br>
+        <select name="Pet" id="dpdn">
+            <option value="0">Dog</option>
+            <option value="1">Cat</option>
+            <option value="2">Parrot</option>
+            <option value="3">Fishes</option>
+            <option value="4">Hamster</option>
+        </select>
+        <select name="Gender" id="gender">
+            <option value="male">Male</option>
+            <option value="a">Female</option>
+        </select>
+        <br><br>
+        <button class="btn" onclick="submit()">Find Names</button><br>
+        <div class="names" id="display"></div>
 
-    <div class="footer">
-        <a href="index.html" class="a">Home</a><br>
-        <a href="about us.html" class="a">About Us</a><br>
-        <a href="#" class="a"><i>Back to Top</i></a><br>
+        <div class="footer">
+            <a href="index.html" class="a">Home</a><br>
+            <a href="about us.html" class="a">About Us</a><br>
+            <a href="#" class="a"><i>Back to Top</i></a><br>
+        </div>
     </div>
-
 </body>
 
 </html>
