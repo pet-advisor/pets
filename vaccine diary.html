@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta "viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/nav-bar.css">
     <link rel="icon" href="./src/favicon.png" type="image/x-icon">
     <title>Vaccine Diary</title>
@@ -19,6 +19,22 @@
             background: #EBE3FF;
             margin: 0px;
 
+        }
+
+        .button {
+            background: #8472E1;
+            font-family: 'Poppins', sans-serif;
+            margin-left: 5%;
+            margin-top: 5%;
+            text-align: center;
+            font-size: 25px;
+            border: none;
+            border-radius: 20px;
+            height: 30%;
+            vertical-align: middle;
+            padding-left: 30px;
+            padding-right: 30px;
+            height: 7vh;
         }
 
         .sidepic {
@@ -113,10 +129,25 @@
             font-family: 'Lato', sans-serif;
             border: none;
         }
+
+        .a {
+            text-decoration: none;
+            font-family: 'Lato', sans-serif;
+            color: white;
+        }
+
+        .verify {
+            color: green;
+            font-family: 'Lato', sans-serif;
+            margin-top: 1%;
+            margin-bottom: 5%;
+            margin-left: 5%;
+        }
     </style>
 </head>
 
-<body>
+<body onload="load()">
+    <script src="./js/diary.js"></script>
     <img src="./src/logo.svg" class="logo">
     <nav class="nav">
         <span class="nav-content"><a href="index.html" class="a1">Home</a></span>
@@ -186,8 +217,9 @@
     </div>
     <div class="sub-headings">What's the Vaccine Diary?</div>
     <div class="maintext">
-        The vaccine diary is a convenient and easy way to store data about your pet's vaccinations and related
-        documents. It allows you to keep track of what all vaccines your pet has received.
+        The vaccine diary is a convenient and easy way to store data about your pet's vaccinations. It allows you to
+        keep track of what all vaccines your pet has received. Once you have entered the details, please scroll down to
+        locate the "Submit" button.
     </div>
     <table>
         <colgroup span="5"></colgroup>
@@ -196,24 +228,41 @@
             <th>Name Of Vaccine</th>
             <th>Date Received</th>
             <th>Next Date (if)</th>
-            <th>Relevant Files</th>
         </tr>
         <tr>
-            <td><textarea name="sno" id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="name" id="name1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td><textarea name="date" id="date1" cols="10" rows="1" placeholder="type here..."></textarea></td>
-            <td>English</td>
-            <td>English</td>
+            <td><textarea id="sno1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="name1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="rdate1" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="ndate1" cols="10" rows="1" placeholder="type here..."></textarea></td>
         </tr>
         <tr>
-            <td>Sweden</td>
-            <td>Stockholm</td>
-            <td>9 million</td>
-            <td>Swedish</td>
-            <td>English</td>
+            <td><textarea id="sno2" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="name2" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="rdate2" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="ndate2" cols="10" rows="1" placeholder="type here..."></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea id="sno3" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="name3" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="rdate3" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="ndate3" cols="10" rows="1" placeholder="type here..."></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea id="sno4" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="name4" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="rdate4" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="ndate4" cols="10" rows="1" placeholder="type here..."></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea id="sno5" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="name5" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="rdate5" cols="10" rows="1" placeholder="type here..."></textarea></td>
+            <td><textarea id="ndate5" cols="10" rows="1" placeholder="type here..."></textarea></td>
         </tr>
     </table>
-    <br><br>
+    <button onclick="save()" class="button">Submit</button>
+    <div class="verify" id="verified"></div>
+
     <div class="footer">
         <a class="a" href="index.html">Home</a><br>
         <a class="a" href="about us.html">About Us</a><br>
