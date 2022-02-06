@@ -1,6 +1,6 @@
 # Pet Advisor
 
-Welcome to the Pet Advisor project. This is a project made for the CodeX Web Development challenge. The theme selected by our team is is PETS. 
+Welcome to the Pet Advisor project. This is a project made for the CodeX Web Development challenge. The theme selected by our team is PETS. 
 
 According to Gfk, a global research firm, more than 56% of the world's population has atleast one pet in their household. Despite this staggering number, pet owners still find difficulties in terms of pet management. Our website aims to tackle a few of these problems. 
 
