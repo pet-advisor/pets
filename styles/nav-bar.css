@@ -149,23 +149,32 @@
 
 }
 
-@media screen and (orientation:potrait){
-#wrapper{
+#warning-message {
   display: none;
+  margin: 5px;
+  padding: 7px;
 }
-#warning-message{
-  display: block;
+
+@media only screen and (orientation:portrait) {
+
+  #wrapper {
+    display: none;
+  }
+
+  #warning-message {
+    display: block;
+  }
+
 }
+
+@media only screen and (orientation:landscape) {
+
+  #warning-message {
+    display: none;
+  }
+
 }
-@media screen and (orientation:landscape) {
-#wrapper{
-  display: block;
-}  
-#warning-message{
-  display: block;
-}
-}
-  .a1 {
+.a1 {
     text-decoration: none;
     font-family: Lato, sans-serif;
     color: black;
