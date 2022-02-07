@@ -149,7 +149,22 @@
 
 }
 
-
+@media screen and (orientation:potrait){
+#wrapper{
+  display: none;
+}
+#warning-message{
+  display: block;
+}
+}
+@media screen and (orientation:landscape) {
+#wrapper{
+  display: block;
+}  
+#warning-message{
+  display: block;
+}
+}
   .a1 {
     text-decoration: none;
     font-family: Lato, sans-serif;
