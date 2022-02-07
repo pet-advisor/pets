@@ -118,37 +118,42 @@
     .column {
       width: 100%;
       height: auto;
+      margin: 0%;
+    }
+    .nav-content {
+    font-size: large;
+    }
+    .nav-content-active{
+      font-size: large;
+    }
+    .dropbtn{
+      font-size: large;
+    }
+    .dropdown{
+      font-size: large;
     }
   }
+  @media screen and (max-width:400px) {
+.nav-content{
+  font-size: medium;
+}
+  .nav-content-active{
+    font-size: medium;
+  }
+  .dropbtn{
+    font-size: medium;
+  }
+  .dropdown{
+    font-size: small;
+  }
+
+}
+
+
   .a1 {
     text-decoration: none;
     font-family: Lato, sans-serif;
     color: black;
-}
-#warning-message {
-  display: none;
-  margin: 5px;
-  padding: 7px;
-}
-
-@media only screen and (orientation:portrait) {
-
-  #wrapper {
-    display: none;
-  }
-
-  #warning-message {
-    display: block;
-  }
-
-}
-
-@media only screen and (orientation:landscape) {
-
-  #warning-message {
-    display: none;
-  }
-
 }
 
 /* custom scrollbars for all pages fitted into navbar.css because navbar.css is applied everywhere, im sorry we're lazy */

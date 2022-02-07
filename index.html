@@ -53,6 +53,7 @@
             margin-right: 3%;
         }
 
+
         /* First slide */
         .landing {
             width: 170vh;
@@ -86,6 +87,35 @@
         .btn:hover {
             background: #d7cfff;
         }
+
+        @media screen and (max-width:600px) {
+            .landing {
+                width: 90%;
+                margin-left: 6.5%;
+                margin-right: 0%;
+            }
+
+            .landing-text {
+                font-size: 4vh;
+                margin-top: -25vh;
+                width: 60%;
+                font-weight: 100;
+            }
+
+            .btn {
+                height: 20px;
+                font-size: 12px;
+            }
+        }
+
+        @media screen and (max-width:400px) {
+            .landing-text {
+                margin-top: -19vh;
+            }
+
+        }
+
+
 
         /* Second Slide */
         .collage {
@@ -151,6 +181,43 @@
 
         }
 
+        @media screen and (max-width:600px) {
+            .collage {
+                display: none;
+            }
+
+            .about-us-heading {
+                margin-left: 7%;
+                width: 80%;
+                font-size: 32px;
+                margin-top: 18%;
+
+            }
+
+            .about-us-question {
+                margin-left: 7%;
+                width: 80%;
+                font-size: 4vh;
+            }
+
+            .about-us-answer {
+                margin-left: 7%;
+                width: 80%;
+                font-size: 2.9vh;
+            }
+
+            .btn-about-us {
+                font-size: 2vh;
+                height: 30px;
+                margin-left: 38%;
+            }
+
+            .learn-more-about {
+                font-size: 10px;
+                vertical-align: -7px;
+            }
+        }
+
         /* Third slide*/
         .find-companions-headings {
             margin-top: 10%;
@@ -194,6 +261,29 @@
             width: 150vh;
             margin-top: 4%;
             margin-bottom: 3%;
+        }
+
+        @media screen and (max-width:600px) {
+            .find-companions-headings {
+                margin-left: 7%;
+                width: 80%;
+                font-size: 30px;
+            }
+
+            .find-companions-text {
+                margin-top: 1%;
+                font-size: 2.9vh;
+                margin-left: 7%;
+            }
+
+            .dropbtnh {
+                display: none;
+            }
+
+            .collage-circles {
+                width: 80%;
+                margin-left: 10%;
+            }
         }
 
         /* fourth slide*/
@@ -254,6 +344,13 @@
             height: 11vh;
         }
 
+        @media screen and (max-width:600px) {
+            .problems-heading {
+                margin-left: 7%;
+                width: 80%;
+                font-size: 30px;
+            }
+        }
 
 
         .btn-names-index:hover {
@@ -338,9 +435,9 @@
 </head>
 
 <body>
-    <div id="warning-message">
+    <!-- <div id="warning-message">
         <h1 align="center" class="height:100%; vertical-align:middle;">This Website Will Not Work In Potrait Mode</h1>
-    </div>
+    </div> -->
     <div id="wrapper">
         <!-- logo -->
         <img src="./src/logo.svg" class="logo">
