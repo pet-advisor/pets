@@ -155,7 +155,7 @@
   padding: 7px;
 }
 
-@media only screen and (orientation:portrait) {
+/* @media only screen and (orientation:portrait) {
 
   #wrapper {
     display: none;
@@ -171,9 +171,10 @@
 
   #warning-message {
     display: none;
-  }
+  } 
 
-}
+}*/
+
 .a1 {
     text-decoration: none;
     font-family: Lato, sans-serif;

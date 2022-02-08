@@ -77,4 +77,28 @@ html{
     font-weight: 300;
 
 }
-
+@media screen and (max-width:1300px) {
+    .landing-text>img{
+        width: 50%;
+        margin-left: 105%;
+    }
+    .landing-text{
+        margin-left: 5%;
+        width: 60%;
+        font-size: large;
+    }
+}
+@media screen and (max-width:400px) {
+    .landing-text{
+        margin-left: 5%;
+        width: 60%;
+        font-size: 12px;
+    }    
+    .animal{
+        font-size: 25px;
+    }
+    .btn{
+        font-size: 15px;
+        height: 10%;
+    }
+}
